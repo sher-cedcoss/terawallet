@@ -1,0 +1,1891 @@
+/* popup css */
+/* tab css */
+/* quote section */
+.mwb-quote-cta .mwb_btn_fill {
+    width: 246px !important;
+}
+.mwb-quote-pulse i {
+    color: #ffffff;
+}
+.mwb-quote-intro-image {
+    position: relative;
+}
+.mwb-quote-intro-content {
+    padding: 0 30px;
+}
+.mwb-quote-intro ul li:nth-of-type(3n+1) {
+    clear: both;
+}
+.mwb-quote-intro-image br {
+    display: none;
+}
+.mwb-quote-pulse {
+  background: #2196F3;
+  height: 100px;
+  width: 100px;
+  border: 0px solid #2196F3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0px 2px 8px -2px rgba(0,0,0,0.5);
+  animation: pulse 1s infinite;
+  margin: 0 auto;
+}
+.mwb-quote-intro-image .mwb-popup-youtube {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+.mwb-quote-intro-image::after {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    content: "";
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+}
+100% {
+    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+}
+}
+/* tab css end */
+.mwb-cta-popup-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    transition: 0.2s linear all;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    display: none;
+    overflow-y: scroll;
+}
+.submitted-message p:nth-of-type(1) {
+    color: #52cc52;
+    font-family: 'Nunito Sans-Black';
+    font-size: 40px;
+}
+.submitted-message p:nth-of-type(2) {
+    color: #333333;
+    font-size: 16px;
+}
+.mwb-cta-popup-wrap.active{
+    display: block;
+}
+.mwb-popup-btn {
+    cursor: pointer;
+}
+.mwb-cta-popup {
+    max-width: 767px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 40px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 4px;
+    width: 100%;
+}
+.mwb-cta-popup-cross {
+    right: 19px;
+    position: absolute;
+    top: 15px;
+    color: #2196f3;
+    cursor: pointer;
+    font-size: 30px;
+}
+/*.mwb-cta-popup .hs_email {
+    display: flex;
+}*/
+.hs_which_hubspot_packages_do_you_currently_use_.hs-which_hubspot_packages_do_you_currently_use_.hs-fieldtype-checkbox.field.hs-form-field {
+    margin-bottom: 30px;
+}
+.hs-form-checkbox-display span {
+    font-family: 'Nunito Sans-Light';
+    font-size: 14px;
+}
+#email-90034739-381e-4541-be30-5cd428043b3a {
+    border: 2px solid #cccccc;
+    background: transparent;
+    padding: 14px 10px;
+    width: 95%;
+    border-radius: 4px;
+}
+#label-email-90034739-381e-4541-be30-5cd428043b3a span {
+    font-family: 'Nunito Sans-SemiBold';
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+#label-which_hubspot_packages_do_you_currently_use_-90034739-381e-4541-be30-5cd428043b3a {
+    font-size: 24px;
+    padding-top: 30px;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.hs-form-checkbox {
+    width: 50%;
+    display: inline-block;
+}
+.mwb-cta-popup .hs-button.primary.large {
+    background: #2196f3;
+    border-radius: 46px;
+    margin-top: 30px;
+    padding: 12px;
+    width: 154px;
+}
+.hs-form-checkbox-display input {
+    margin-right: 20px;
+}
+.mwb-cta-popup h2 {
+    font-family: 'Nunito Sans-Black';
+    color: #000000 !important;
+}
+/* popup css end */
+.mwb-quote-section {
+    padding: 100px 0;
+}
+.mwb-quote-section p {
+    margin-bottom: 10px;
+}
+.mwb-quote-title {
+    font-size: 46px;
+    color: #000000;
+    font-family: 'Nunito Sans-Black';
+}
+.mwb-quote-title span {
+    color: #2196f3;
+}
+.mwb-quote-section .flex-box {
+    flex-wrap: wrap;
+}
+.mwb_btn_fill {
+    margin-top: 22px;
+    background: #2196F3;
+    border-radius: 46px;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    margin-right: 10px;
+    display: inline-block;
+    line-height: normal;
+}
+/*============================================
+=            startegy section css            =
+============================================*/
+.mwb-quote-strategy {
+    background: #EBF5FD;
+}
+.mwb-quote-strategy__services-center {
+    display: flex;
+    justify-content: space-between;
+}
+.mwb-quote-strategy__services-center .mwb-quote-strategy__services-box {
+    width: 23.33%;
+    display: block;
+    border: 0;
+    text-align: center;
+    background: #fff;
+    padding: 30px 30px 30px;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-box-shadow: 0 -2px 20px 0 rgba(0,0,0,.06);
+    box-shadow: 0 -2px 20px 0 rgba(0,0,0,.06);
+    border-radius: 4px;
+}
+.mwb-quote-strategy__services-top h3 {
+    font-size: 20px;
+    font-family: 'Nunito Sans-SemiBold';
+    color: #000000;
+}
+.mwb-quote-strategy__services-box:hover {
+    box-shadow: 0 20px 8px rgba(0,0,0,.06);
+    transform: translateY(-5px);
+}
+.mwb-quote-strategy__services-icon::before {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #2196f3 100%);
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    position: absolute;
+    content: "";
+    top: 10%;
+    right: -5.5%;
+    bottom: 10%;
+    left: -5%;
+    border: none;
+    -webkit-border-radius: 7% / 50%;
+    border-radius: 7% / 50%;
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    text-shadow: none;
+    /* z-index: -1; */
+}
+.mwb-quote-strategy__services-icon i {
+    z-index: 2;
+    position: relative;
+    line-height: 56px;
+}
+.mwb-quote-strategy__services-icon {
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    width: 55px;
+    height: 60px;
+}
+.mwb-quote-strategy__services-top {
+    padding-top: 40px;
+}
+.mwb-quote-strategy__services-wrap {
+    padding-top: 80px;
+}
+/*=====  End of startegy section css  ======*/
+/*===========================================
+=            testimonial section            =
+===========================================*/
+.mwb-quote-testimonial__wrap {
+    max-width: 767px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.mwb-quote-testimonial__quote {
+    color: #2196F3;
+    font-size: 150px;
+    height: 78px;
+    width: 90px;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 95%;
+}
+.mwb-quote-testimonial__wrap p:nth-of-type(1) {
+    margin: 0;
+}
+.mwb-quote-testimonial__client span:nth-of-type(1) {
+    font-family: 'Nunito Sans-Bold';
+}
+.mwb-quote-testimonial__client span:nth-of-type(2) {
+    font-size: 14px;
+}
+/*.mwb-quote-testimonial h2 {
+    text-transform: capitalize;
+}*/
+.mwb-quote-testimonial__para {
+    font-size: 18px;
+}
+.mwb-quote-brand {
+    padding: 100px 0;
+}
+/*=====  End of testimonial section  ======*/
+/*===================================
+=            feature css            =
+===================================*/
+.mwb-quote-feature .mwb-col-6:nth-of-type(2n+1) {
+    clear: both;
+}
+.mwb-quote-bg {
+    background: #f9f8fc;
+}
+.mwb-quote-sub-title {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;
+}
+.mwb-quote-feature .mwb-col-6 {
+    min-height: 270px;
+    padding: 30px 40px 0 40px;
+}
+.mwb-quote-feature {
+    padding-top: 50px;
+}
+.mwb-quote-feature .mwb-col-6 h3 {
+    font-size: 24px;
+    font-family: 'Nunito Sans-Bold';
+    position: relative;
+}
+/*.mwb-quote-feature .mwb-col-6 h3::after {
+    left: -17px;
+    right: 0;
+    top: 10px;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    background: #2196F3;
+    border-radius: 50%;
+}*/
+.mwb-quote-feature .mwb-col-6 h3::before {
+    left: -25px;
+    right: 0;
+    top: 6px;
+    bottom: 0;
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: 4px solid #2196F3;
+    border-radius: 50%;
+}
+/*=====  End of feature css  ======*/
+/*======================================
+=            awards section            =
+======================================*/
+.mwb_front__awards-wrap-img img {
+    max-width: 200px;
+}
+.mwb_front__awards-text {
+    padding-bottom: 40px;
+}
+.mwb_front__awards-wrap .mwb_front__awards-wrap-img {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid #ededed;
+    padding-bottom: 60px;
+    border-bottom: 1px solid #ededed;
+    padding-top: 60px;
+}
+.mwb_front__awards-wrap .mwb_front__awards-wrap-img:nth-of-type(3n) {
+    border-right: 0;
+}
+.mwb_front__awards-wrap .mwb_front__awards-wrap-img:nth-of-type(4),
+.mwb_front__awards-wrap .mwb_front__awards-wrap-img:nth-of-type(5),
+.mwb_front__awards-wrap .mwb_front__awards-wrap-img:nth-of-type(6) {
+    border-bottom: 0px;
+}
+/*=====  End of awards section  ======*/
+
+/*==========================================
+=            faq Section CSS            =
+==========================================*/
+.mwb-quote-accordion-content-col h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Nunito Sans-Black';
+}
+.mwb-quote-accordion-content-col:nth-of-type(1) {
+    margin-right: 20px;
+}
+.mwb-quote-accordion-content-col {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 30px;
+}
+.mwb-quote-accordions {
+    width: 66%;
+    margin: 0 auto;
+}
+.mwb-quote-faq .mwb-quote-title {
+    padding-bottom: 0px;
+}
+.mwb-quote-accordion-item,.mwb-quote-tab-item {
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.mwb-quote-accordion-content p,.mwb-quote-tab-content p {
+    margin-bottom: 12px !important;
+    font-size: 18px;
+}
+.mwb-quote-accordion-content,.mwb-quote-tab-content {
+    text-align: left;
+}
+.mwb-quote-accordion-item .mwb-quote-accordion-title {
+    cursor: pointer;
+    padding: 14px;
+    transition: all 0.4s;
+    border-radius: 5px 5px 0 0;
+}
+
+.mwb-quote-accordion-item .mwb-quote-accordion-title.active-title {
+    background: linear-gradient(to right,#4168F3,#47D1F8);
+    color: #fff;
+}
+
+.mwb-quote-accordion-item .mwb-quote-accordion-title h2 {
+    margin: 0;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Nunito Sans-SemiBold' !important;
+    font-weight: normal;
+}
+
+.mwb-quote-accordion-item .mwb-quote-accordion-title i.fa-chevron-down {
+    transform: rotate(0);
+    transition: 0.4s;
+}
+
+.mwb-quote-accordion-item .mwb-quote-accordion-title i.fa-chevron-down.chevron-top {
+    transform: rotate(-180deg);
+}
+
+.mwb-quote-accordion-item .mwb-quote-accordion-content{
+    display: none;
+    line-height: 1.7;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 0 0 5px 5px;
+}
+.mwb-quote-tab-item .mwb-quote-tab-content {
+    display: none;
+}
+.mwb-quote-accordion-item .mwb-quote-accordion-content.active,.mwb-quote-tab-item .mwb-quote-tab-content.active{
+    display: block;
+}
+
+.mwb-quote-accordion-item .mwb-quote-accordion-content p,.mwb-quote-tab-item .mwb-quote-tab-content p {
+    margin: 0;
+}
+
+/*==========================================
+=            faq section CSS            =
+==========================================*/
+/*==========================================
+=            Banner Section CSS            =
+==========================================*/
+.mwb-quote-header {
+    text-align: center;
+    background: #f9f8fc;
+    position: relative;
+}
+.mwb-quote-header h1 {
+    font-size: 70px;
+    font-family: 'Nunito Sans-Black';
+    color: #000000;
+}
+.mwb-quote-header p {
+    color: #000000;
+    font-size: 22px;
+    margin: 0 auto 30px;
+    max-width: 957px;
+}
+.mwb-quote-header .button.mwb_btn_fill {
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 12px 45px !important;
+}
+.mwb-quote-header .button.mwb_btn_fill:hover,
+.mwb-quote-header .button.mwb_btn_fill:focus{
+    background-color: #2196F3;
+}
+.mwb-quote-bottom-arrow .fa {
+    font-size: 28px;
+}
+.mwb-quote-bottom-arrow {
+    color: #fff;
+    margin-top: 40px;
+}
+.mwb-img-con__col {
+    max-width: 957px;
+    margin: 0 auto;
+    width: 100%;
+}
+/*=====  End of Banner Section CSS  ======*/
+/*=====================================================
+=            Banner Bottom Icon Sction CSS            =
+=====================================================*/
+.mwb-quote-icon {
+    background: #f9f8fc;
+    padding: 140px 0 100px;
+}
+.mwb-quote-icon-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.mwb-quote-icon-box {
+    max-width: 220px;
+}
+.mwb-quote-icon-box.mwb-quote-icon-box--center {
+    margin: 0 100px;
+    transform-origin: bottom;
+}
+.mwb-quote-header.mwb-quote-section {
+    padding: 50px 0 150px 0;
+    background: #f9f8fc;
+}
+.mwb-quote-icon-box--center img {
+    max-width: 140px;
+}
+.mwb-quote-section.mwb-quote-icon {
+    max-width: 805px;
+    width: 100%;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+    right: 0;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.mwb-quote-cta {
+    display: flex;
+    justify-content: center;
+}
+.mwb-quote-cta a:nth-of-type(1) {
+    margin-right: 20px !important;
+}
+/*=====  End of Banner Bottom Icon Sction CSS  ======*/
+/*===============================================
+=            mwb quote intro section            =
+===============================================*/
+.mwb-quote-intro ul li i {
+    color: #2196F3;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/*.mwb-quote-intro .mwb_container {
+    display: flex;
+    align-items: center;
+}*/
+.mwb-quote-intro {
+    padding: 200px 0 100px 0;
+}
+.mwb-quote-intro .mwb-quote-intro__text {
+    max-width: 860px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.mwb-quote-intro__box {
+    width: 55px;
+    height: 55px;
+    line-height: 58px;
+    text-align: center;
+    border: 2px solid #2196F3;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
+.mwb-quote-intro ul li {
+    margin-top: 60px;
+    position: relative;
+    width: 31.4%;
+    float: left;
+    margin-right: 26px;
+}
+.mwb-quote-intro ul li p {
+    margin-bottom: 0;
+}
+.mwb-quote-intro ul li:nth-of-type(3n) {
+    margin-right: 0;
+}
+.mwb-quote-intro ul li span {
+    font-family: 'Nunito Sans-Bold';
+    display: block;
+    font-size: 20px;
+    margin-bottom: 14px;
+}
+/*=====  End of mwb quote intro section  ======*/
+
+/*=========================================
+=            Image Col Section            =
+=========================================*/
+.mwb-img-con__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.mwb-img-con__title {
+    font-size: 42px;
+}
+.mwb-quote-h-client .mwb_container {
+    max-width: 960px;
+}
+/*=====  End of Image Col Section  ======*/
+/*===========================================
+=            Client Logo Section            =
+===========================================*/
+ul.mwb-quote-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.mwb-quote-gallery__item {
+    flex: 0 0 25%;
+    margin-bottom: 0;
+    padding: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 130px;
+    border-right: 1px solid #ddd;
+    border-top: none;
+}
+.mwb-quote-gallery__item:nth-last-child(1) {
+    border-right: none;
+}
+.mwb-quote-gallery .mwb-quote-gallery__item:nth-child(n+5) {
+    border-bottom: none;
+}
+.mwb-quote-gallery .mwb-quote-gallery__item:nth-child(4n) {
+    border-right: none;
+}
+li.mwb-quote-gallery__item img {
+    opacity: 1;
+    max-width: 150px;
+}
+/*=====  End of Client Logo Section  ======*/
+/* CLient Section CSS */
+.mwb-quote-client {
+    position: relative;
+}
+.mwb-quote-client::after {
+    background-image: url(https://makewebbetter.com/wp-content/uploads/2019/10/dot-layout.png);
+    content: "";
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+}
+.mwb-quote-client__left {
+    flex: 0 0 34%;
+    max-width: 34%;
+}
+.mwb-quote-client__right {
+    flex: 0 0 64%;
+    max-width: 64%;
+    position: relative;
+    margin-left: 2%;
+}
+.mwb_front__client-stories {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mwb_front__client-story:nth-of-type(1), .mwb_front__client-story:nth-of-type(2), .mwb_front__client-story:nth-of-type(3), .mwb_front__client-story:nth-of-type(4) {
+    margin-bottom: 30px;
+}
+.mwb_front__client-story {
+    padding: 0 20px;
+    width: 25%;
+    align-items: center;
+    min-height: 110px;
+}
+.mwb_front__client-story:nth-of-type(2n) {
+    margin-top: -35px;
+}
+.mwb_front__client-elem1 {
+    position: absolute;
+    left: 0;
+}
+.mwb_front__client-elem2 {
+    position: absolute;
+    right: 0;
+}
+.mwb_front__client-elem3 {
+    position: absolute;
+    bottom: 0;
+}
+.mwb_front__client-elem4 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+}
+.mwb_front__client-elem5 {
+    position: absolute;
+    top: -50px;
+    left: 76px;
+    right: 0;
+    margin: 0 auto;
+}
+.mwb_front__client-elem6 {
+    position: absolute;
+    left: 95px;
+    top: -45px;
+}
+/* End of CLient Section CSS */
+/*================================================
+=            Video Review Section CSS            =
+================================================*/
+.mwb-quote-review__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.mwb-quote-review__col {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.mwb-quote-review__col--video {
+    text-align: center;
+}
+.mwb-quote-review__video-pop {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    background: #bababa99;
+    z-index: 5555544;
+}
+.mwb-quote-review__col .mwb-quote-title {
+    font-size: 34px !important;
+}
+#mwb-quote-review__vid {
+    top: 50%;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#vid-popup {
+    display: flex;
+    background: #ffffff;
+    padding: 10px 25px;
+    font-weight: bold;
+    margin-top: 0;
+    border-radius: 50%;
+    -webkit-animation: ripple 0.9s linear infinite;
+    animation: ripple 0.9s linear infinite;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto
+}
+#vid-popup img {
+    max-width: 120px;
+    width: 120px;
+}
+/* Play Button Ripple Effect */
+@-webkit-keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(239, 246, 253, 0.33), 0 0 0 10px rgba(239, 246, 253, 0.33);
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(239, 246, 253, 0.33), 0 0 0 25px rgba(239, 246, 253, 0.33);
+    }
+}
+@keyframes ripple {
+    0% {
+        box-shadow: 0 0 0 0 rgba(239, 246, 253, 0.33), 0 0 0 10px rgba(239, 246, 253, 0.33);
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(239, 246, 253, 0.33), 0 0 0 25px rgba(239, 246, 253, 0.33);
+    }
+}
+.mwb-quote-review__client-pro {
+    background: #2196f3;
+    max-width: 450px;
+    float: right;
+    padding: 50px;
+    color: #fff;
+}
+.mwb-quote-review__client-title p {
+    font-size: 14px;
+}
+.mwb-quote-review__client-name {
+    font-size: 40px;
+    font-family: 'Nunito Sans-Bold';
+    line-height: 45px;
+}
+span.mwb-quote-review__video-close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background: #fff;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    display: inline-block;
+    line-height: 28px;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 55;
+}
+div#mwb-quote-review__vid br {
+    display: none;
+}
+/*=====  End of Video Review Section CSS  ======*/
+/*===========================================
+=            Contact Section CSS            =
+===========================================*/
+.mwb-quote-talk__row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.mwb-quote-talk__con {
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+.mwb-quote-talk__cta {
+    flex: 0 0 40%;
+    max-width: 40%;
+    text-align: right;
+}
+.mwb-quote-talk__cta a {
+    background-color: #2196F3 !important;
+    margin: 0;
+    margin: 0;
+    font-size: 16px;
+    display: inline-block;
+    padding: 13px 15px;
+    width: 250px;
+}
+/*=====  End of Contact Section CSS  ======*/
+
+/* Onboarding Section CSS */
+.mwb-quote-onboard {
+    background-color: #f9f8fc;
+    text-align: center;
+}
+.mwb_hubspot_silver_partner_wrap {
+    text-align: center;
+    max-width: 961px;
+    margin: 30px auto 190px;
+    position: relative;
+}
+.mwb_hubspot_silver_logo {
+    max-width: 340px;
+    margin: 0 auto;
+}
+.mwb_hubspot_silver_listing ul li {
+    width: 200px;
+    position: absolute;
+}
+.mwb_hubspot_silver_listing ul li img{
+    max-width: 180px;
+    display: block;
+    margin: 0 auto;
+}
+.mwb_hubspot_silver_listing ul li:first-child {
+    bottom: -100px;
+}
+.mwb_hubspot_silver_listing ul li:nth-child(2) {
+    left: 190px;
+    bottom: -180px;
+}
+.mwb_hubspot_silver_listing ul li:nth-child(3) {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -300px;
+}
+.mwb_hubspot_silver_listing ul li:nth-child(4) {
+    right: 190px;
+    bottom: -180px;
+}
+.mwb_hubspot_silver_listing ul li:last-child {
+    bottom: -100px;
+    right: 0;
+}
+ul.mwb-quote-onboard__wrap-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+ul.mwb-quote-onboard__wrap-list li {
+    flex: 0 0 32%;
+    max-width: 32%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    position: relative;
+    padding-left: 100px;
+    margin: 25px 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+ul.mwb-quote-onboard__wrap-list span.quoteghtlight-letter {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f3f3;
+    /* opacity: .15; */
+    color: #2196f387;
+    font-family: 'Nunito Sans-Bold';
+}
+
+ul.mwb-quote-onboard__wrap-list li .quoteghlight {
+    font-size: 26px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Nunito Sans-Black';
+    line-height: 32px;
+    margin-bottom: 5px;
+}
+/* End of Onboarding Section CSS */
+/* Breathe Section CSS */
+.mwb-quote-breathe {
+    text-align: center;
+}
+.mwb-hub-temp-certification__center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mwb-hub-temp-certification__box {
+    width: 16.33%;
+    display: block;
+    border: 0;
+    text-align: center;
+    background: #fff;
+    padding: 15px 5px 15px;
+}
+.mwb-quote-section {
+    background: #f9f8fc;
+}
+/* End of Breathe Section CSS */
+/* FAQ Section CSS */
+.mwb-quote-faq {
+    background-color: #f9f8fc;
+    text-align: center;
+    position: relative;
+}
+.mwb-quote-faq__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    z-index: 55;
+}
+.mwb-quote-faq__title {
+    flex: 0 0 40%;
+    text-align: left;
+    max-width: 40%;
+}
+.mwb-quote-faq__accor {
+    flex: 0 0 55%;
+    max-width: 55%;
+}
+.mwb-quote-section.mwb-quote-faq::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 14%;
+    background-image: url(https://makewebbetter.com/wp-content/uploads/2019/10/dot-layout.png);
+    background-repeat: repeat;
+    bottom: 0;
+    opacity: .15;
+    height: 30%;
+}
+.mwb-quote-faq .mwb_pro_accordion-item {
+    background: #f9f8fc;
+    margin: 0 auto 20px;
+    max-width: 940px;
+    padding: 0 15px;
+    text-align: left;
+    box-shadow: 0 5px 6px 0 rgba(45,62,80,0.12);
+}
+.mwb-quote-faq .mwb_pro_accordion-title a {
+    display: block;
+    cursor: pointer;
+    padding: 15px 0;
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    padding-right: 16px;
+}
+.mwb-quote-faq .mwb_pro_accordion-title a:after {
+    content: "\f347";
+    right: 0;
+    position: absolute;
+    top: 15px;
+    font-family: 'dashicons';
+    transition: 0.3s linear all;
+}
+.mwb-quote-faq .mwb_pro_accordion-title.active a:after {
+    transform: rotate(-180deg);
+}
+.mwb-quote-faq .mwb_pro_content {
+    font-size: 16px;
+    width: 100% !important;
+}
+.mwb-quote-faq .mwb_pro_content p {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+.mwb_pro_content table th, .mwb_pro_content table td {
+    line-height: normal;
+    border: 1px solid #d4d4d4;
+    padding: 10px 15px;
+}
+.mwb_pro_content table th {
+    font-weight: bold;
+    font-family: 'Nunito Sans-Black';
+}
+.mwb_pro_content_table {
+    padding-bottom: 20px;
+}
+.mwb_pro_content table {
+    border: 1px solid #d4d4d4;
+    margin: 15px 0 0;
+}
+/* End of FAQ Section CSS */
+/* contact section */
+.mwb-quote-contact-section {
+    padding: 100px 0;
+}
+.mwb-quote__quote-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mwb-quote-contact-section h2 {
+    font-size: 46px;
+    font-family: 'Nunito Sans-Black';
+    color: #000;
+}
+.mwb-quote__quote-content a {
+    width: 215px !important;
+}
+.mwb-quote__quote-container .mwb-quote__quote-title {
+    width: 50%;
+}
+.mwb-quote__quote-content {
+    width: 50%;
+    text-align: center;
+}
+/* contact section end */
+/* Form Section CSS */
+.mwb-quote-form {
+    text-align: left;
+}
+.mwb_hub_contact_form_wrapper {
+    max-width: 940px;
+    margin: 40px auto 0;
+    background-color: #ffffff;
+    padding: 0 25px;
+    text-align: left;
+}
+.mwb_hub_contact_form_wrapper input[type="submit"].hs-button {
+    background: #2196f3;
+    border-radius: 0 35px 35px 0;
+}
+.mwb_hub_contact_form_wrapper form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mwb_hub_contact_form_wrapper .hs_email.hs-email.hs-fieldtype-text.field.hs-form-field > label {
+    display: none;
+}
+.mwb_hub_contact_form_wrapper .hs-input {
+    min-width: 310px;
+    height: 49px;
+    background: #ededed;
+    border-radius: 35px 0 0 35px;
+}
+.mwb_hub_contact_form_wrapper label.hs-error-msg {
+    font-size: 14px;
+    color: #e54a4a;
+}
+.mwb_hub_contact_form_wrapper .nf-form-fields-required {
+    display: none;
+}
+.mwb_hub_contact_form_wrapper .nf-field-label label {
+    font-weight: normal;
+}
+.mwb_hub_contact_form_wrapper .ninja-forms-field {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    font-size: 16px;
+    padding: 11px 13px;
+    border-radius: 4px;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element ul li {
+    position: relative;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element input[type="checkbox"] ~ label:before {
+    display: inline-block;
+    content: "";
+    border: 1px solid #dddddd;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element input[type="checkbox"]:checked ~ label:before {
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element input[type="button"] {
+    background-color: #2196F3;
+    color: #ffffff;
+    border-radius: 40px;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    display: inline-block;
+    padding: 12px 40px;
+    min-width: 180px;
+    margin: 0 auto;
+    border: none;
+}
+.mwb_hub_contact_form_wrapper .submit-wrap {
+    text-align: center;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element input[type="checkbox"] {
+    margin: 0;
+    opacity: 0;
+}
+/* End of Form Section CSS */
+/*=============================
+=            popup            =
+=============================*/
+.mwb-fix-form-wrapper {
+    position: fixed;
+    z-index: 555555;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.93);
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s linear all;
+}
+.mwb-fix-form-wrapper.mwb-fix-form-show{
+    opacity: 1;
+    visibility: visible;
+}
+.mwb-fix-form{
+    font-size: 13px;
+    line-height: 22px;
+    background: #f8f8f8;
+    max-width: 1030px;
+    box-shadow: 0px 0 30px 3px rgba(194, 194, 194, 0.4);
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 90%;
+}
+.mwb-fix-form__left {
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding: 40px;
+    position: relative;
+}
+.mwb-fix-form__right {
+    background-color: rgb(196, 237, 255);
+    background-image: url('https://makewebbetter.com/wp-content/uploads/2020/03/background-fix.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    flex: 0 0 40%;
+    max-width: 40%;
+    position: relative;
+}
+.mwb-fix-form__title {
+    font-family: 'Nunito Sans-Bold';
+    color: #000000;
+    letter-spacing: 1px;
+    position: relative;
+    word-spacing: 2px;
+    text-align: left;
+    margin-bottom: 35px;
+}
+.mwb-hub-form .inputs-list {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mwb-hub-form fieldset {
+    margin-bottom: 10px !important;
+    max-width: 100% !important;
+}
+.mwb-hub-form fieldset > div >label {
+    display: block;
+    margin-bottom: 6px;
+    color: #484848;
+    font-weight: 100;
+}
+.mwb-hub-form .hs-form-checkbox label {
+    display: block;
+    padding-left: 1.5em;
+}
+.mwb-hub-form .hs-form-checkbox label [type=checkbox] {
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+}
+.mwb-hub-form .hs-form-checkbox span {
+    display: block;
+}
+.mwb-hub-form .hs-form-checkbox label span:before {
+    display: inline-block;
+    content: "";
+    border: 1px solid #dddddd;
+    width: 15px;
+    height: 15px;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+.mwb-hub-form .hs-form-checkbox label input[type="checkbox"]:checked ~ span:before {
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+.mwb-hub-form fieldset.form-columns-1 .hs-input {
+    width: 100% !important;
+}
+.mwb-hub-form input, .mwb-hub-form select, .mwb-hub-form textarea {
+    background: #f5f8fa;
+    border: 1px solid #cbd6e2;
+    border-radius: 3px;
+    padding: 10px;
+    height: auto !important;
+    min-height: auto !important;
+}
+.mwb-hub-form .hs-form-checkbox {
+    flex: 0 0 32%;
+    max-width: 32%;
+    position: relative;
+}
+.mwb-hub-form input[type="submit"] {
+    background: #2196F3;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 50px;
+    letter-spacing: 0;
+    padding: 15px 22px;
+    font-weight: 500;
+}
+.mwb-hub-form .actions {
+    margin-top: 30px;
+    text-align: center;
+}
+.mwb-fix-form__close {
+    cursor: pointer;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 33px;
+    font-size: 15px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0 0 26px 2px rgba(0,0,0,.15);
+    top: -10px;
+    right: -10px;
+    z-index: 5555;
+}
+/*=====  End of popup  ======*/
+/*====================================
+=            form section            =
+====================================*/
+.mwb-quote-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.mwb-quote-form form fieldset {
+    padding-bottom: 20px;
+}
+.mwb-quote-form .hs-input {
+    display: inline-block;
+    width: 90%;
+    max-width: 500px;
+    height: 40px;
+    padding: 9px 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    color: #33475b;
+    border: 1px solid #cbd6e2;
+    box-sizing: border-box;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+.mwb-quote-form .hs-button {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    line-height: 12px;
+    position: relative;
+    text-align: center;
+    background-color: #2196F3;
+    border-color: #2196F3;
+    color: #fff;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 14px;
+    padding: 12px 24px;
+}
+.mwb-quote-form form fieldset {
+    max-width: 100%;
+}
+.mwb-quote-form .hs_submit.hs-submit .actions {
+    text-align: center;
+}
+.mwb-quote-form .hs_submit.hs-submit {
+    margin-top: 40px;
+}
+.mwb-quote-form form>div>div:last-of-type .hs-input:not([type=checkbox]):not([type=radio]), .mwb-quote-form form fieldset>div:last-of-type .hs-input:not([type=checkbox]):not([type=radio]) {
+    width: 100%;
+    max-width: 100%;
+}
+.mwb-quote-form .hs-error-msg {
+    font-size: 12px;
+    color: #ee0d0d;
+}
+/*=====  End of form section  ======*/
+
+/*=====================================
+=            Responvie CSS            =
+=====================================*/
+@media only screen and (max-width: 1080px) {
+    /* mwb-quote-section*/
+    .mwb-quote-gallery__item{
+        padding: 18px;
+        min-height: 153px;
+    }
+    li.mwb-quote-gallery__item img{
+        max-width: 140px !important;
+    }
+    /* end of mwb-quote-section*/
+}
+@media only screen and (max-width: 991px) {
+    ul.mwb-quote-onboard__wrap-list li .quoteghlight{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .mwb-quote-plan-detail__table {
+        table-layout: auto;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .mwb-quote-intro .mwb-quote-intro__text {
+        margin-bottom: 0;
+    }
+    .mwb-quote-intro-content {
+        margin-top: 60px;
+    }
+    .mwb-quote-intro .mwb-col-6 {
+        width: 100%;
+    }
+    .mwb-quote-intro ul li:nth-of-type(3n+1) {
+        clear: unset;
+    }
+    .mwb-quote-strategy__services-wrap {
+        padding-top: 30px;
+    }
+    .mwb-quote-strategy__services-center {
+        display: unset;
+    }
+    .mwb-quote-strategy__services-center::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    .mwb-quote-strategy__services-center .mwb-quote-strategy__services-box {
+        width: 48.2%;
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 30px;
+        min-height: 250px;
+    }
+    .mwb-quote-strategy__services-center .mwb-quote-strategy__services-box:nth-of-type(3),
+    .mwb-quote-strategy__services-center .mwb-quote-strategy__services-box:nth-of-type(4) {
+        margin-bottom: 0;
+    }
+    .mwb-quote-strategy__services-center .mwb-quote-strategy__services-box:nth-of-type(2n+1) {
+        clear: both;
+    }
+    .mwb-quote-strategy__services-center .mwb-quote-strategy__services-box:nth-of-type(2n) {
+        margin-right: 0;
+    }
+    .mwb-quote-intro ul li:nth-of-type(3n) {
+        margin-right: 26px;
+    }
+    .mwb-quote-intro ul li:nth-of-type(2n) {
+        margin-right: 0;
+    }
+    .mwb-quote-intro ul li {
+        width: 48%;
+    }
+    .mwb-quote-custom__quote-wrap {
+        display: block; 
+    }
+    .mwb-quote-custom__quote-wrap::after {
+        content: "";
+        position: static;
+        border-right: none;
+    }
+    .mwb-quote-custom__quote-col p:nth-of-type(1) {
+        max-width: 100%;
+    }
+    .mwb-quote-custom__quote-col:nth-of-type(1) {
+        padding-bottom: 30px;
+    }
+    .mwb-quote-custom__quote-col .mwb-quote-custom__quote-link {
+        margin-top: 16px;
+    }
+    /*mwb-quote-icon*/
+    .mwb-quote-icon-box {
+        max-width: 200px;
+    }
+    /* end of mwb-quote-icon */
+    /*mwb-quote-section*/
+    .mwb-img-con__col--txt {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+    .mwb-img-con__col--img {
+        flex: 0 0 36%;
+        max-width: 36%;
+    }
+    .mwb-img-con__col--img img{
+        vertical-align: middle;
+    }
+    /* end of mwb-quote-section*/
+    .page-template .site-inner {
+        padding:0
+    }
+}
+@media only screen and (max-width: 854px) {
+    .mwb-quote-icon-box.mwb-quote-icon-box--center {
+        margin: 0 60px;
+    }
+    .mwb-quote__quote-container {
+        flex-direction: column;
+    }
+    .mwb-quote__quote-container .mwb-quote__quote-title,
+    .mwb-quote__quote-content {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .mwb_front__awards-wrap .mwb_front__awards-wrap-img {
+        border: none;
+    }
+    .mwb-quote-contact-section h2 {
+        font-size: 30px;
+    }
+    .mwb-quote-contact-section {
+        padding: 50px 0;
+    }
+    /* popup css */
+    .mwb-cta-popup {
+        max-width: 90%;
+    }
+    /* popup css end */
+    .mwb-quote-accordions {
+        width: 100%;
+    }
+    .mwb-quote-custom__quote-text h4 {
+        font-size: 25px;
+    }
+    .mwb-quote-accordion-content-col {
+        width: 100%;
+    }
+    .mwb-quote-accordion-content-col:nth-of-type(1) {
+        margin-right: 0;
+    }
+    .mwb-quote-accordion-item .mwb-quote-accordion-title h2 {
+        font-size: 16px;
+        text-align: left;
+    }
+    .mwb-quote-section p{
+        font-size: 18px;
+        line-height: 1.4;
+    }
+    .mwb-quote-header .button.mwb_btn_fill{
+        font-size: 16px;
+        padding: 12px 46px !important;
+    }
+    .mwb-quote-header{
+        padding-bottom: 60px !important;
+    }
+    .mwb-quote-title{
+        font-size: 30px !important;
+    }
+    .mwb-quote-header h1 {
+        font-size: 42px;
+    }
+    .mwb-quote-section {
+        padding: 50px 0;
+    }
+    .mwb-quote-title {
+        font-size: 26px;
+    }
+    .mwb-quote-client__left {
+        margin-bottom: 50px;
+    }
+    .mwb-quote-section.mwb-quote-icon {
+        max-width: auto !important; 
+        width: 100%; 
+        margin: 0 auto; 
+        background: #f9f8fc; 
+        border-radius: 0px; 
+        padding: 0px; 
+        position: relative; 
+        bottom: auto; 
+        left: auto; 
+        right: auto; 
+        box-shadow: none; 
+    }
+    .mwb-quote-intro ul li {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .mwb-quote-intro ul li:nth-last-child(1),
+    .mwb-quote-strategy__services-center .mwb-quote-strategy__services-box:nth-last-child(1) {
+        margin-bottom: 0;
+    }
+    .mwb-quote-strategy__services-center .mwb-quote-strategy__services-box {
+        width: 100%;
+        margin-right: 0;
+    }
+    .mwb-quote-intro,.section-pd-100 {
+        padding: 60px 0;
+    }
+    .mwb-quote-brand {
+        padding-top: 60px;
+    }
+    .mwb-quote-gallery__item:nth-last-child(1),
+    .mwb-quote-gallery__item:nth-last-child(3) {
+        border-right: none;
+    }
+    .mwb-quote-testimonial__para {
+        font-size: 20px;
+    }
+    .mwb-quote-strategy__services-center .mwb-quote-strategy__services-box:nth-of-type(3) {
+        margin-bottom: 30px;
+    }
+    .mwb_front__awards-wrap-img img {
+        max-width: 150px;
+    }
+    .mwb-quote-feature .mwb-col-6 {
+        min-height: auto;
+    }
+    .mwb-quote-icon-box--center img {
+       max-width: 100%; 
+   }
+   .mwb_front__client-story {
+        width: 50%;
+    }
+    .mwb_hubspot_silver_logo {
+        max-width: 260px;
+        margin: 0 auto 20px;
+    }
+    section.mwb-quote-section.mwb-img-con {
+        padding-top: 50px !important;
+    }
+    .mwb_hubspot_silver_listing ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .mwb_hubspot_silver_listing ul li {
+        width: 33.333%;
+        position: static;
+        display: inline-block;
+    }
+    .mwb_hubspot_silver_listing ul li img {
+        width: 120px;
+    }
+    .mwb_hubspot_silver_partner_wrap {
+        margin-bottom: 0;
+    }
+    .mwb-hub-temp-certification__box {
+        width: 25%;
+        padding: 10px;
+    }
+    /*mwb-quote-onboard*/
+    ul.mwb-quote-onboard__wrap-list li {
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+    .mwb-quote-icon-box {
+        max-width: 110px;
+    }
+    .mwb-quote-icon-box.mwb-quote-icon-box--center {
+        margin: 0 50px;
+    }
+    .mwb-fix-form__right{
+        display: none;
+    }
+    .mwb-fix-form__left{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mwb-hub-form .hs-form-checkbox {
+        flex: 0 0 48%;
+        max-width: 48%;
+    }
+    .mwb-fix-form__left > p {
+        margin-bottom: 0;
+    }
+    /* mwb-img-con__col--txt*/
+    .mwb-img-con__col{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mwb-img-con__col--img{
+        padding-top: 40px;
+        text-align: center;
+    }
+    /*mwb-quote-section*/
+    .mwb-quote-gallery__item{
+     flex: 0 0 50%;
+     min-height: 246px;
+     border-bottom: 1px solid #ddd !important;
+    }
+    li.mwb-quote-gallery__item img {
+        max-width: 140px !important;
+    }
+    .mwb-quote-gallery__item:nth-child(2){
+        border-right: none;
+    }
+    .mwb-quote-gallery__item:nth-child(6){
+        border-right: none;
+    }
+    .mwb-quote-gallery__item:last-child{
+        border-bottom: none !important;
+    }
+    .mwb-quote-gallery__item:nth-child(7){
+       border-bottom: none !important; 
+    }
+    /* end of mwb-quote-section */
+    /*mwb-quote-review__col--video*/
+    #vid-popup img {
+        max-width: 100px;
+    }
+    #vid-popup{
+        width: 180px;
+        height: 180px;
+    }
+    /* end of mwb-quote-review__col--video*/
+    .mwb-hub-temp-certification__center
+    {
+        justify-content: flex-start;
+    }
+    .mwb-quote-talk__con {
+        padding-right:20px;
+    }
+    .mwb-quote-talk__cta a
+    {
+        width:100%;
+        max-width: 300px;
+    }
+    .mwb-quote-custom__quote {
+        display: block;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .mwb-quote-pulse {
+        height: 60px;
+        width: 60px;
+    }
+    /* popup css */
+    .hs-form-checkbox {
+        width: 100%;
+        display: block;
+    }
+    .mwb-cta-popup {
+        overflow-y: auto;
+        height: 90%;
+    }
+    .mwb-cta-popup h2 {
+        font-size: 20px;
+    }
+    #email-90034739-381e-4541-be30-5cd428043b3a {
+        padding: 10px;
+    }
+    #label-which_hubspot_packages_do_you_currently_use_-90034739-381e-4541-be30-5cd428043b3a {
+        font-size: 18px;
+    }
+    /* popup css end */
+}
+@media only screen and (max-width: 576px) {
+    .mwb_front__awards-wrap .mwb_front__awards-wrap-img:nth-of-type(2n+1) {
+        clear: both;
+    }
+    .mwb-quote-feature .mwb-col-6 {
+        padding: 30px 20px 0 20px;
+    }
+    .mwb-quote-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    .mwb-quote-cta .button.mwb_btn_fill {
+        margin-bottom: 20px;
+        margin-right: 0 !important;
+    }
+    .mwb_front__awards-wrap .mwb_front__awards-wrap-img {
+        width: 48.3%;
+    }
+    .mwb_front__awards-wrap .mwb_front__awards-wrap-img:nth-of-type(2n) {
+        border-right: none;
+    }
+    .mwb_front__awards-wrap .mwb_front__awards-wrap-img {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .mwb_front__awards-wrap-img img {
+        max-width: 130px;
+    }
+    /* mwb-quote-icon */
+    .mwb_hubspot_silver_listing ul li img {
+        width: 80px;
+    }
+    .mwb-hub-temp-certification__box {
+        width: 49.5%;
+        padding: 10px;
+    }
+    .mwb_hub_contact_form_wrapper .one-half {
+        width: 100%!important;
+        float: none!important;
+        margin: 0;
+    }
+    .mwb-quote-icon {
+        padding-bottom: 0;
+    }
+    .mwb-quote-icon-box.mwb-quote-icon-box--center {
+        margin: 20px 0;
+        transform: scale(1);
+    }
+    .mwb_hub_contact_form_wrapper .hs-input
+    {
+        min-width: 267px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mwb-quote-form .hs-input{
+        width: 100% !important;
+    }
+    .mwb-quote-header h1 {
+        font-size: 33px;
+    }
+    .mwb-quote-title {
+        font-size: 25px !important;
+    }
+    .mwb-quote-section p{
+        font-size: 16px !important;
+    }
+    #vid-popup {
+        width: 100px;
+        height: 100px;
+    }
+    #vid-popup img {
+        max-width: 60px;
+    }
+    /*mwb-quote-h-client*/
+    .mwb-quote-gallery__item{
+        min-height: 144px;
+    }
+    ul.mwb-quote-onboard__wrap-list li {
+        flex: 0 0 100%;
+        max-width: 100%;
+    } 
+    .mwb-quote-talk__txt {
+        margin-bottom: 20px;
+    }
+    /* end of mwb-quote-h-client */
+    .mwb-quote-review__col {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mwb-quote-title {
+        text-align: center;
+    }
+    .mwb-quote-review__col--video {
+        padding-top: 20px;
+    }
+    /*mwb-quote-talk*/
+    .mwb-quote-talk__row{
+        text-align: center;
+    }
+    .mwb-quote-talk__cta {
+        text-align: center;
+    }
+    .mwb-quote-talk__con {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .mwb-quote-talk__cta{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .hs_submit.hs-submit {
+        padding-top: 15px;
+    }
+    .mwb_hub_contact_form_wrapper .hs-input{
+       border-radius: 35px;
+       min-width:300px;
+   }
+   .mwb_hub_contact_form_wrapper input[type="submit"].hs-button {
+        border-radius: 35px;
+        min-width:300px;
+    }
+    .mwb-quote-gallery__item {
+        padding: 0px;
+    }
+    /*end of mwb-quote-talk*/
+}
+/*=====  End of Responvie CSS  ======*/

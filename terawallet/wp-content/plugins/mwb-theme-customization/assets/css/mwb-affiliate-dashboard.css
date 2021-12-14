@@ -1,0 +1,646 @@
+/**
+* All of the CSS for your admin-specific functionality should be
+* included in this file.
+*/
+/*@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap');*/
+/*@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css');*/
+.site-inner {
+    max-width: 100%;
+    padding: 0;
+}
+.content-sidebar-wrap{
+    padding-top: 0;
+}
+.breadcrumb,
+.entry-header{
+    display: none;
+}
+.mwb-custom-uap-dashboard,
+.mwb-custom-uap-dashboard .uap-account-no-box-inside .uap-count,
+.mwb-custom-uap-dashboard  .uap-user-page-content,
+.mwb-custom-uap-dashboard  .uap-account-table thead,
+.mwb-custom-uap-dashboard .uap-account-table tfoot{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content .uap-special-label,
+.mwb-custom-uap-dashboard .uap-user-page-content .uap-achievements-content-line{
+    font-family: 'Nunito Sans', sans-serif!important;
+}
+.mwb-custom-uap-dashboard a:hover,
+.mwb-custom-uap-dashboard a:focus{
+    outline: 0;
+}
+.mwb-custom-uap-dashboard table th {
+    background-color: #2196F3;
+    color: #ffffff;
+}
+.ui-datepicker-calendar {
+    font-size: 14px!important;
+}
+.mwb-custom-uap-dashboard .uap-register-9 .uap-form-line-register .cssload-wrapper{
+    left: 0;
+    right: 0;
+    top: 0;
+}
+/*===============================
+=            sidebar            =
+===============================*/
+.mwb-custom-uap-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+.mwb-custom-uap-dashboard .uap-user-page-top-wrapper{
+    width: 230px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    overflow: unset;
+}
+.mwb-custom-uap-dashboard .uap-user-page-top-wrapper .uap-user-page-content-wrapper{
+    width: 100%;
+}
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-left-side,
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-middle-side,
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-right-side{
+    max-width: 100%;
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+.mwb-custom-uap-dashboard    .uap-user-page-wrapper .uap-user-page-details {
+    text-align: center;
+}
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-user-page-avatar{
+    padding-right: 0;
+}
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-account-page-top-mess{
+    padding-left: 0;
+}
+.mwb-custom-uap-dashboard .uap-user-page-top-wrapper .uap-top-achievement {
+    float: none;
+    margin: 10px 0;
+    width: auto;
+    text-align: center;
+}
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-top-rank{
+    padding: 0;
+}
+.mwb-custom-uap-dashboard .uap-user-page-top-wrapper .uap-user-page-name {
+    font-size: 20px;
+    overflow: hidden;
+    display: block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 200px;
+    margin: 0 auto 6px;
+}
+.mwb-custom-uap-dashboard .uap-user-page-top-wrapper .uap-stats-label{
+    min-height: auto;
+    font-size: 14px;
+    padding: 0;
+}
+.mwb-custom-uap-dashboard .uap-user-page-top-wrapper .uap-stats-content{
+    margin-bottom:  8px;
+}
+.mwb-custom-uap-dashboard .uap-user-page-top-wrapper .uap-user-page-mess{
+    margin-bottom:  0;
+}
+.mwb-custom-uap-dashboard .uap-user-page-top-wrapper .uap-top-achievement .uap-achievement-line{
+    border-radius: 40px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-top-earnings,
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-top-referrals {
+    margin: 0 !important;
+    float: none;
+    text-align: center;
+}
+.mwb-custom-uap-dashboard .uap-user-page-top-background {
+   display: none;
+}
+.mwb-custom-uap-dashboard .uap-left-side, .mwb-custom-uap-dashboard .uap-middle-side, .mwb-custom-uap-dashboard .uap-right-side {
+    padding: 0 15px;
+}
+.mwb-custom-uap-dashboard .uap-user-page-top-wrapper .uap-ap-menu ul li {
+    float: none;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-ap-menu .uap-ap-menu-tab-item{
+    float: none;
+    background-color: #ffffff !important;
+    border-right: none;
+    border-color: #efefef;
+    font-size: 16px;
+}
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-ap-menu li.uap-ap-submenu-item.uap-ap-menu-item-selected div.uap-ap-menu-tab-item{
+    background-color: #2196F3!important;
+}
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-ap-menu li.uap-ap-submenu-item.uap-ap-menu-item-selected div.uap-ap-menu-tab-item a{
+    color:#ffffff !important;
+}
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-menu-item {
+    border-color: #efefef!important;
+    padding-top: 1px;
+    padding-bottom: 0;
+}
+.mwb-custom-uap-dashboard .uap-ap-menu ,
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-menu-item:hover,
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-submenu-item:hover .uap-ap-menu-tab-item,
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-menu-tab-item:hover{
+    background-color: #ffffff !important;
+}
+.mwb-custom-uap-dashboard .uap-ap-theme-2 .uap-ap-menu .uap-ap-menu-item-selected{
+    background-color: #2196F3!important;
+}
+.mwb-custom-uap-dashboard .uap-ap-theme-2 .uap-ap-menu .uap-public-ap-menu-subtabs .uap-ap-menu-item-selected a{
+ color: #ffffff!important;
+}
+.mwb-custom-uap-dashboard  .uap-ap-menu .uap-ap-menu-tab-item a,
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-menu-tab-item:hover a,
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-public-ap-menu-subtabs .uap-ap-menu-item a,
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-menu-item:hover a{
+    color: #607d8b!important;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-menu-tab-item-selected,
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-ap-menu li.uap-ap-menu-tab-item.uap-ap-menu-tab-item-selected {
+    background-color: #2196F3 !important;
+}
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-menu-tab-item-selected a,
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-menu-tab-item-selected a:hover,
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-menu-tab-item-selected a:focus,
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-menu-tab-item-selected:hover a{
+    color: #ffffff !important;
+}
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-submenu-item .uap-public-ap-menu-subtabs{
+    margin: 0 !important;
+    left: 230px;
+    top: 0;
+    background-color: #ffffff;
+    box-shadow: 5px 1px 10px rgba(0,0,0,0.13);
+    -webkit-box-shadow: 5px 1px 10px rgba(0,0,0,0.13);
+    -moz-box-shadow: 5px 1px 10px rgba(0,0,0,0.13);
+    -o-box-shadow: 5px 1px 10px rgba(0,0,0,0.13);
+    min-width: 200px;
+}
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-public-ap-menu-subtabs .uap-ap-menu-item a{
+    padding: 8px 0;
+    font-size: 14px;
+}
+.mwb-custom-uap-dashboard  .uap-user-page-top-wrapper .uap-ap-menu .fa-uap{
+    width: 33px;
+}
+/*=====  End of sidebar  ======*/
+/*===============================
+=            middle content            =
+===============================*/
+.mwb-custom-uap-dashboard .uap-ap-wrap h3,
+.mwb-custom-uap-dashboard .uap-user-page-content > div > h3,
+.uap-user-page-content > h3 {
+    text-align: center;
+    font-size: 34px;
+    font-family: 'Nunito Sans-Black';
+}
+.mwb-custom-uap-dashboard .uap-account-no-box-inside .uap-count{
+    font-family: 'Nunito Sans-Black';
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper{
+    width: calc(100% - 230px);
+    background-color: #f7f7f7;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content {
+    padding-right: 30px;
+}
+.mwb-custom-uap-dashboard  .uap-row {
+    margin: 5px -10px;
+}
+.mwb-custom-uap-dashboard  .uap-row > [class*=uapcol-]{
+    margin-bottom: 15px;
+}
+.mwb-custom-uap-dashboard  .uap-account-no-box ,
+.uap-account-visits-tab1 > div,
+.uap-account-visits-tab2 > div,
+.uap-account-visits-tab3 > div{
+    background-color: #ffffff;
+    color: #4f585f;
+    padding: 0;
+    border-radius: 3px;
+    min-height:auto;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,.06), 0 1px 4px rgba(0,0,0,.08);
+    position: relative;
+}
+.mwb-custom-uap-dashboard  .uap-account-overview-tab1 > div::after,
+.mwb-custom-uap-dashboard  .uap-account-overview-tab2 > div::after,
+.mwb-custom-uap-dashboard  .uap-account-overview-tab3 > div::after,
+.mwb-custom-uap-dashboard  .uap-account-overview-tab4 > div::after,
+.mwb-custom-uap-dashboard  .uap-account-overview-tab5 > div::after,
+.mwb-custom-uap-dashboard  .uap-account-overview-tab6 > div::after,
+.mwb-custom-uap-dashboard .uap-account-referrals-tab1 > div::after,
+.mwb-custom-uap-dashboard .uap-account-referrals-tab2 > div::after,
+.mwb-custom-uap-dashboard .uap-account-referrals-tab3 > div::after,
+.mwb-custom-uap-dashboard .uap-account-payments-tab1 > div::after,
+.mwb-custom-uap-dashboard .uap-account-payments-tab2 > div::after,
+.uap-account-visits-tab1 > div::after,
+.uap-account-visits-tab2 > div::after,
+.uap-account-visits-tab3 > div::after,
+.uap-account-overall-tab1 > div::after,
+.uap-account-overall-tab2 > div::after,
+.uap-account-overall-tab3 > div::after,
+.uap-account-overall-tab4 > div::after,
+.uap-account-overall-tab5 > div::after,
+.uap-account-overall-tab6 > div::after {
+    content: "\f155";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    font-size: 64px;
+    color: #2196F3;
+    line-height: 0;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    opacity: 0.4;
+}
+.mwb-custom-uap-dashboard  .uap-account-overview-tab2 > div::after,
+.mwb-custom-uap-dashboard .uap-account-referrals-tab2 > div::after,
+.mwb-custom-uap-dashboard .uap-account-payments-tab2 > div::after,
+.uap-account-visits-tab2 > div::after,
+.uap-account-overall-tab2 > div::after {
+    content: "\f4c0";
+}
+.mwb-custom-uap-dashboard  .uap-account-overview-tab3 > div::after,
+.mwb-custom-uap-dashboard .uap-account-referrals-tab3 > div::after,
+.uap-account-visits-tab3 > div::after,
+.uap-account-overall-tab3 > div::after {
+    content: "\f688";
+}
+.mwb-custom-uap-dashboard .uap-account-overview-tab4 > div::after {
+    content: "\f53d";
+}
+.uap-account-overall-tab4 > div::after{
+    content: "\f06e";
+}
+.mwb-custom-uap-dashboard .uap-account-overview-tab5 > div::after {
+    content: "\f662";
+}
+.uap-account-overall-tab5 > div::before{
+    color: #2196F3;
+    content: "\f155";
+    font-family: "Font Awesome 5 Free";
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 0;
+    opacity: 0.5;
+    position: absolute;
+    right: 31px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mwb-custom-uap-dashboard  .uap-account-overview-tab6 > div::after {
+    content: "\f51e";
+}
+.uap-account-overall-tab6 > div::after{
+    content: "\f164";
+}
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-public-ap-menu-subtabs .uap-ap-menu-item-selected,
+.mwb-custom-uap-dashboard .uap-ap-menu .uap-public-ap-menu-subtabs .uap-ap-menu-tab-item-selected{
+    padding-left: 20px!important;
+}
+.mwb-custom-uap-dashboard .uap-register-9,
+.uap-change-password-form,
+.mwb-custom-uap-dashboard .uap-account-link-generator,
+.mwb-custom-uap-dashboard #uap_campaign_form,
+#mwb-custom-affiliate-overview-content{
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,.06), 0 1px 4px rgba(0,0,0,.08);
+    border-radius: 3px;
+    margin: 0 auto;
+    border-top: 4px solid #2196F3;
+    padding: 30px;
+    max-width: 600px;
+}
+#mwb-custom-affiliate-overview-content{
+    max-width: 100%;
+    margin: 20px 0;
+}
+#mwb-custom-affiliate-overview-content .uap-ap-label {
+    margin-bottom: 10px;
+    display: block;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+.mwb-custom-uap-dashboard h4 {
+    margin-top: 0;
+}
+#mwb-custom-affiliate-overview-content h4.uap-ap-label{
+    font-size: 20px;
+}
+#mwb-custom-affiliate-overview-content .uap-account-url {
+    background-color: #f0f0f0;
+    min-height: auto;
+    margin-bottom: 30px;
+}
+.mwb-custom-uap-dashboard #uap_campaign_form br{
+    display: none;
+}
+.mwb-custom-uap-dashboard .uap-account-link-generator{
+    max-width: 100%;
+}
+.mwb-custom-uap-dashboard .uap-ap-wrap .uap-ap-generate-links-result {
+    background-color: #2196f3;
+}
+.mwb-custom-uap-dashboard .uap-register-9 .uap-submit-form{
+    text-align: left;
+}
+.mwb-custom-uap-dashboard .uap-register-9 .uap-submit-form input{
+   width: auto;
+}
+.mwb-custom-uap-dashboard .uap-register-9 .uap-labels-register{
+    padding-left: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.mwb-custom-uap-dashboard .uap-register-9 .uap-form-line-register{
+    margin: 0;
+}
+.mwb-custom-uap-dashboard  .uap-register-9 .uap-form-line-register .select2-selection{
+    border-radius: 0!important;
+}
+.mwb-custom-uap-dashboard  .uap-change-password-form .uap-change-password-label{
+    width: 100%;
+    text-align: left;
+    padding: 0;
+}
+.mwb-custom-uap-dashboard .uap-change-password-form .uap-change-password-field-wrap{
+    margin-bottom: 15px;
+}
+.mwb-custom-uap-dashboard .uap-ap-wrap .uap-ap-field,
+.mwb-custom-uap-dashboard  .uap-ap-wrap .uap-ap-field .uap-ap-label{
+    max-width: 100%;
+    width: 100%;
+}
+.mwb-custom-uap-dashboard .uap-ap-field{
+    margin-bottom: 10px;
+}
+.mwb-custom-uap-dashboard .uap-ap-label, .mwb-custom-uap-dashboard label{
+    font-family: 'Nunito Sans-Bold';
+    margin-bottom: 5px;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content input[type="password"],
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content input[type="text"],
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content select,
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content  textarea{
+    padding: 10px!important;
+    height: auto;
+    background-color: #ffffff;
+    border: 1px solid #efefef;
+    box-shadow: none;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 0 !important;
+    line-height: 1.4;
+    margin: 0;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content input[type="password"]:focus,
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content input[type="password"]:hover,
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content input[type="password"]:active{
+    outline: 0;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content input[type="submit"],
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content .uap-ap-field button{
+    background-color: #2196F3;
+    border-radius: 40px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    min-width: 150px;
+    padding: 14px 10px;
+    margin-top: 25px;
+    background-image: none!important;
+    font-weight: 400;
+    line-height: 1.2;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content input[type="submit"]:focus,
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content input[type="submit"]:hover{
+    opacity: 0.8;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-avatar-trigger .uap-upload-avatar{
+    border-color: #2196F3;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-avatar-trigger .uap-upload-avatar:hover,
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-avatar-trigger .uap-upload-avatar:focus{
+    background-color: #2196F3;
+}
+.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner {
+    border: none;
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,.06), 0 1px 4px rgba(0,0,0,.08) !important;
+}
+.mwb-custom-uap-dashboard  .uap-banners-wrapp .uap-banner .uap-banner-title{
+    background-color: #2196F3;
+}
+.uap-user-page-wrapper.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-content {
+    display: flex;
+    align-items: self-start;
+    flex-wrap: wrap;
+}
+.uap-user-page-wrapper.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-content > div {
+    padding: 0 10px;
+    max-width: 18%;
+    width: 100%;
+    flex: 0 0 18%;
+}
+.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-content .uap-banner-description,
+.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-title,
+.mwb-custom-uap-dashboard th,
+.mwb-custom-uap-dashboard .uap-achievements-title{
+    font-family: 'Nunito Sans-Bold';
+}
+.uap-user-page-wrapper.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-content .uap-banner-img {
+    padding: 0;
+    border: none;
+    width: 90px;
+    margin: 0;
+    height: auto;
+    overflow: hidden;
+}
+.uap-user-page-wrapper.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-content .uap-banner-copypaste {
+    max-width: 26%;
+    margin: 0;
+    flex: 0 0 26%;
+}
+.uap-user-page-wrapper.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-content .uap-banner-copypaste textarea {
+    min-height: 100px;
+    background-color: #efefef;
+    border: 2px solid #ddd;
+    margin-top: 3px;
+}
+.mwb-custom-affiliate-hyphen {
+    display: inline-block;
+    margin-right: 1%;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content .uap-general-date-filter-wrap input[type="text"],
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content .uap-general-date-filter-wrap select {
+    max-width: 30.333%;
+    margin-right: 1%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content .uap-general-date-filter-wrap input[type="submit"]{
+    display: block;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content .uap-general-date-filter-wrap select{
+    margin-right: 0;
+}
+.mwb-custom-uap-dashboard .uap-account-table{
+    font-size: 14px;
+    border: none;
+}
+.mwb-custom-uap-dashboard .uap-account-table thead,
+.mwb-custom-uap-dashboard .uap-account-table tbody {
+    border-bottom: none;
+}
+.mwb-custom-uap-dashboard .uap-account-table td,
+.mwb-custom-uap-dashboard .uap-account-table th{
+    padding: 10px;
+}
+.mwb-custom-uap-dashboard  .uap-achievements{
+    box-shadow: 0 4px 20px 1px rgba(0,0,0,.06), 0 1px 4px rgba(0,0,0,.08);
+}
+.ui-datepicker .ui-widget-header{
+    background: #2196F3;
+    border-color: #2196F3;
+}
+.ui-datepicker .ui-state-highlight{
+   background: #2196F3;
+   color: #ffffff;
+   border-color: #2196F3;
+}
+.mwb-custom-uap-dashboard .uap-achievements-title{
+    background-color: #2196F3!important;
+}
+.mwb-custom-uap-dashboard .uap-account-alert-warning{
+    background-color:  #2196F3;
+    color: #ffffff;
+}
+.mwb-custom-uap-dashboard .uap-account-alert-warning label.uap-ap-label,
+.mwb-custom-uap-dashboard .uap-ap-field.uap-account-affiliatelinks-tab2 label.uap-ap-label {
+    font-weight: normal;
+}
+.mwb-custom-uap-dashboard .uap-account-alert-warning strong {
+    color: #ffffff;
+    font-family: 'Nunito Sans-Black';
+}
+.mwb-custom-uap-dashboard .uap-account-url,
+.mwb-custom-uap-dashboard  .uap-account-url-slug{
+    background-color: #ffffff;
+}
+.mwb-custom-affiliate-table-class .uap-account-table {
+    margin-bottom: 0;
+}
+.mwb-custom-affiliate-unordered-list {
+    margin: 0 0 20px 0 !important;
+    padding-left: 0!important;
+}
+.mwb-custom-affiliate-unordered-list li {
+    position: relative;
+    padding-bottom: 10px;
+    list-style-type: none!important;
+}
+.mwb-custom-affiliate-unordered-list li::before {
+    content: "\f00c";
+    font-family:"Font Awesome 5 Free";
+    font-weight: bold;
+    font-style: normal;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 11px;
+    background-color:#2196F3;
+    color: #ffffff;
+    display: inline-block;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 7px;
+}
+.mwb-custom-affiliate-span {
+    display: block;
+    padding-top: 10px;
+}
+#mwb-custom-affiliate-overview-content .mwb_affiliate_guide {
+    background-color: #f0f0f0;
+    border: 1px solid transparent;
+    border-color: #ddd;
+    padding: 5px;
+    border-radius: 2px;
+    border-left: 3px solid green;
+}
+/*=====  End of  middle content   ======*/
+/*===================================
+=           media query           =
+===================================*/
+@media screen and (max-width: 991px) {
+    .uapcol-md-3,
+    .uapcol-md-4{
+        width: 50%;
+    }
+    .mwb-custom-affiliate-table-class{
+        overflow-y: auto;
+    }
+}
+@media screen and (max-width: 767px) {
+    .mwb-custom-uap-dashboard .uap-user-page-top-wrapper,
+    .mwb-custom-uap-dashboard .uap-user-page-content-wrapper{
+        max-width: 100%;
+        width: 100%;
+    }
+    .mwb-custom-uap-dashboard .uap-ap-menu .uap-ap-submenu-item .uap-public-ap-menu-subtabs{
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        display: none;
+        background-color: #f1efef;
+    }
+    .uap-ap-theme-2 .uap-ap-menu .uap-ap-submenu-item:hover > .uap-public-ap-menu-subtabs{
+        display: none;
+    }
+    .mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media screen and (max-width: 650px) {
+ .uap-user-page-wrapper.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-content > div.uap-banner-description,
+ .uap-user-page-wrapper.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-content .uap-banner-copypaste {
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+.uap-user-page-wrapper.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-content > div {
+    padding: 0 10px;
+    max-width: 50%;
+    width: 100%;
+    flex: 0 0 50%;
+}
+.uap-user-page-wrapper.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-content .uap-banner-img{
+    margin: 0 auto 15px;
+}
+.uap-user-page-wrapper.mwb-custom-uap-dashboard .uap-banners-wrapp .uap-banner .uap-banner-content .uap-banner-copypaste{
+    margin-top: 10px;
+}
+.mwb-custom-uap-dashboard .uapcol-md-4,.mwb-custom-uap-dashboard .uapcol-md-2,
+.uapcol-md-3{
+    width: 100%;
+}
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content .uap-general-date-filter-wrap input[type="text"],
+.mwb-custom-uap-dashboard .uap-user-page-content-wrapper .uap-user-page-content .uap-general-date-filter-wrap select{
+    max-width: 100%;
+    margin-right: 0;
+}
+}
+/*=====  End of media query ======*/

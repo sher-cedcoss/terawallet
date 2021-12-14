@@ -1,0 +1,439 @@
+/* common css */
+.mwb-affiliate-page h1,
+.mwb-affiliate-page h2,
+.mwb-affiliate-page h3,
+.mwb-affiliate-page h4,
+.mwb-affiliate-page h5,
+.mwb-affiliate-page h6{
+	font-family: 'Nunito Sans-Black' !important;
+	color: #000000;
+}
+.mwb-affiliate-page .text-light{
+	font-family: 'Nunito Sans-Light';
+}
+.mwb-affiliate-page .text-semi-bold{
+	font-family: 'Nunito Sans-SemiBold';
+}
+.mwb-affiliate-page p,.mwb-affiliate-page ul{
+	font-family: 'Nunito Sans-Light';
+	font-size: 16px;
+	color: #000000;
+}
+.mwb_btn_shadow{
+	border: none!important;
+	border-radius: 46px;
+	font-size: 14px;
+	padding: 10px 20px;
+	color: #2196F3;
+	border: none;
+	font-family: 'Nunito Sans';
+	font-weight: 400;
+	margin-right: 10px;
+	background: #fff;
+	box-shadow: 0 4px 4px rgba(0,0,0,.25);
+	display: inline-block;
+	line-height: normal;
+}
+body .mwb_underline {
+	text-decoration: underline !important;
+}
+/* common end */
+.mwb-mwb-affiliate-btn-wrapper{
+	display: inline-block;
+	text-align: center;
+}
+.mwb-mwb-affiliate-btn-wrapper p {
+	margin-bottom: 0;
+	font-size: 16px !important;
+	margin-top: 7px;
+}
+.mwb-affiliate-container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.mwb-affiliate-page__partners {
+	padding-bottom: 80px;
+}
+.mwb-affiliate-page__partner{
+	text-align: center;
+}
+.font-OpenSans{
+	font-family: "Nunito Sans", sans-serif;
+}
+.mwb-affiliate-section{
+	padding: 100px 0;
+}
+.mwb-affiliate-heading-wrapper {
+	max-width: 767px;
+	margin: 0 auto 50px;
+	text-align: center;
+}
+.mwb-affiliate-bg-light-color{
+	background-color: #f1f1f1;
+}
+.mwb-affiliate-primary-btn,
+.mwb-affiliate-secondary-btn {
+	background-color: #1e73be;
+	color: #ffffff;
+	min-width: 200px;
+	padding: 15px;
+	display: inline-block;
+	font-size: 16px;
+	transition: all .75s cubic-bezier(0,1,.5,1);
+	margin-top: 30px;
+	text-align: center;
+}
+.mwb-affiliate-primary-btn:hover,
+.mwb-affiliate-secondary-btn:hover{
+	box-shadow: inset 0 0 0 9rem rgba(255,255,255,.1),0 1.25rem 1rem -.5rem rgba(35,44,57,.1);
+	transition: all .75s cubic-bezier(0,1,.5,1);
+}
+.mwb-affiliate-primary-btn:hover{
+	color: #ffffff;
+}
+.mwb-affiliate-heading {
+	font-size: 32px;
+	font-family: 'Nunito Sans-SemiBold' !important;
+	text-transform: uppercase;
+}
+.mwb-affiliate-heading span {
+	color: #1e73be;
+	font-weight: bold;
+}
+.mwb-affiliate-page__partners .mwb-col-3.mwb-affiliate-center p {
+	color: #ffffff;
+}
+/*======================================
+=            banner section            =
+======================================*/
+.mwb-affiliate-banner {
+	background-color: #2196F3;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-size: cover;
+	background-position: center center;
+}
+.mwb-affiliate-content h1 {
+	color: #ffffff;
+	font-size: 42px;
+}
+/* .mwb-affiliate-banner .mwb-affiliate-content{
+ 	margin-left: auto;
+ 	margin-right: 0;
+}*/
+.mwb-affiliate-content {
+	max-width: 65%;
+	width: 100%;
+}
+.mwb-affiliate-banner__image {
+	max-width: 35%;
+	width: 100%;
+}
+.mwb-affiliate-banner-content p{
+	font-size: 22px;
+}
+.mwb-affiliate-banner p, 
+.mwb-affiliate-banner a {
+	color: #ffffff;
+}
+.mwb-affiliate-banner a{
+	text-decoration: none;
+}
+.mwb-mwb-affiliate-btn-wrapper {
+	text-align: left;
+	margin-top: 20px;
+}
+.mwb-mwb-affiliate-btn-wrapper .mwb_btn_shadow {
+	width: 150px !important;
+	font-size: 16px !important;
+	text-transform: capitalize;
+	color: #000000;
+	text-align: center;
+}
+.mwb-affiliate-page__partners .mwb-col-3.active p,.mwb-affiliate-page__partners .mwb-col-3.active h3 {
+	color: #ffffff;
+}
+/*=====  End of banner section  ======*/
+/* content section */
+.mwb-affiliate-page__content-left {
+	width: 75%;
+	float: left;
+}
+.mwb-affiliate-page__content-right {
+	width: 20%;
+	float: right;
+	position: sticky;
+	top: 150px;
+}
+.mwb-affiliate-page__content-container {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.mwb-affiliate-page h2 {
+	font-size: 34px;
+}
+.mwb-affiliate-page__partner-icon,.mwb-affiliate-page__integration-icon {
+	box-shadow: 0 4px 40px rgba(0,0,0,.15);
+	border-radius: 50%;
+	height: 60px;
+	width: 60px;
+	line-height: 75px;
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	background: #fff;
+	margin: 0 auto;
+}
+.mwb-affiliate-page__partner-icon i,.mwb-affiliate-page__integration-icon i {
+	color: #2196F3;
+	font-size: 36px;
+}
+.mwb-affiliate-page__partners .mwb-col-3 {
+	margin-top: 0;
+	padding: 0;
+}
+.mwb-affiliate-page__partner-title h3,.mwb-affiliate-page__integration-title h3 {
+	font-size: 18px;
+	font-family: 'Nunito Sans-SemiBold' !important;
+	padding-top: 20px;
+}
+.mwb-affiliate-page__partner-wrap{
+	background: #2196F3;
+	color: #fff;
+	padding: 10px;
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 30px;
+	margin-top: -13px;
+	box-shadow: 0 4px 40px rgba(0,0,0,.15);
+}
+.mwb-affiliate-page__partners .mwb-affiliate-center h3 {
+	color: #ffffff;
+}
+/* end content section */
+/* link integration */
+.mwb-affiliate-page__integration .mwb-col-6 {
+	padding: 20px;
+	min-height: 272px;
+}
+.mwb-affiliate-page__integration .mwb-col-6:nth-of-type(1) {
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+.mwb-affiliate-page__integration .mwb-col-6:nth-of-type(3){
+	border-right: 1px solid #cccccc;
+}
+.mwb-affiliate-page__integration .mwb-col-6:nth-of-type(2){
+	border-bottom: 1px solid #cccccc;
+}
+.mwb-affiliate-page__integration,.mwb-affiliate-page__form{
+	text-align: center;
+	margin-bottom: 80px;
+}
+/* end link integration */
+/* commmissions */
+.mwb-affiliate-page__commission {
+	text-align: center;
+}
+.mwb-affiliate-page__commission td {
+	border: none;
+	padding: 15px;
+}
+.mwb-affiliate-page__commission table {
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+	border-radius: 4px;
+}
+.mwb-affiliate-page__commission tr:nth-of-type(1){
+	background: #2196F3;
+}
+.mwb-affiliate-page__commission th {
+	padding: 10px;
+	color: #fff;
+	font-family: 'Nunito Sans-Black';
+	text-align: center;
+}
+.mwb-affiliate-page td{
+	color: #000000;
+	text-align: center;
+}
+.mwb-affiliate-page__commission {
+	margin-bottom: 80px;
+}
+.mwb-affiliate-page__form-content {
+	max-width: 560px;
+	width: 100%;
+	margin: 0 auto;
+}
+.mwb-affiliate-page__form-content input[type="button"] {
+	border-radius: 46px;
+	background: #2196F3;
+}
+.mwb-affiliate-page__form-content input[type="email"]{
+	margin-top: 20px;
+}
+.mwb-affiliate-page__form-content input[type="email"],.mwb-affiliate-page__form-content textarea {
+	border: 1px solid #cccccc;
+	background: #ffffff;
+	border-radius: 4px;
+}
+/* end commissions */
+.mwb-affiliate-page__content-right .active{
+	color: #FD5951 !important;
+}
+.mwb-affiliate-page__content-right ul li ul li a {
+	font-size: 16px;
+	text-align: left;
+	color: #2196F3;
+	padding-left: 20px;
+}
+.mwb-affiliate-page__content-right ul li ul li a:focus{
+	outline: none;
+}
+.mwb-affiliate-page__content-right ul > li {
+	/* font-weight: bold; */
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+.mwb-affiliate-page__content-right ul li ul::after {
+	position: absolute;
+	left: 0;
+	top: 8px;
+	bottom: 0;
+	border-left: 3px solid #FD5951;
+	content: "";
+	height: 88%;
+}
+.mwb-affiliate-page__content-right ul li ul {
+	position: relative;
+}
+.mwb-affiliate-page__sub-heading1 {
+	font-size: 22px !important;
+	max-width: 600px;
+	margin: 0 auto;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.mwb-affiliate-page__sub-heading2 {
+	font-size: 18px !important;
+	font-family: 'Nunito Sans-SemiBold' !important;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.mwb-affiliate-page h2 {
+	margin-bottom: 15px;
+}
+.mwb-affiliate-page__section:focus{
+	outline: none;
+}
+.nf-response-msg p {
+	border-left: 4px solid #2196f3;
+	padding: 8px 20px;
+	box-shadow: 2px 5px 10px #d0d0d0;
+}
+@media only screen and (max-width: 1200px) {
+	.mwb-affiliate-container{
+		width: 100%;
+		padding: 0 20px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.mwb-affiliate-page__content-left,.mwb-affiliate-page__content-right{
+		width: 100%;
+		float: none;
+	}
+	.mwb-affiliate-page__content-right {
+		display: none;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.mwb-affiliate-page__btn-mb-show{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	.site-inner{
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 0;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.mwb-affiliate-banner__image {
+		display: none;
+	}
+	.mwb-affiliate-content {
+		max-width: 100%;
+		text-align: center;
+	}
+	.mwb-affiliate-page__partners .mwb-col-3 {
+		margin-bottom: 40px;
+	}
+	.mwb-affiliate-page__partners .mwb-col-3:nth-last-child(1){
+		margin-bottom: 0;
+	}
+	.mwb-affiliate-page__integration .mwb-col-6:nth-of-type(1){
+		border-right: none;
+		border-bottom: none;
+	}
+	.mwb-affiliate-page__integration .mwb-col-6:nth-of-type(3) {
+		border-right: none;
+	}
+	.mwb-affiliate-page__integration .mwb-col-6:nth-of-type(2){
+		border-bottom: 0;
+	}
+	.mwb-affiliate-page__integration, .mwb-affiliate-page__form{
+		margin-bottom: 30px;
+	}
+	.mwb-affiliate-page__partners{
+		padding-bottom: 30px;
+	}
+	.mwb-affiliate-page__content-container {
+		padding: 40px 15px;
+	}
+	.mwb-affiliate-page__integration .mwb-col-6{
+		min-height: auto;
+	}
+}
+@media only screen and (max-width: 580px) {
+	.mwb-affiliate-content h1 {
+		font-size: 30px;
+	}
+	.mwb-affiliate-banner{
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.mwb-affiliate-page h2 {
+		font-size: 22px;
+	}
+	.mwb-affiliate-page__sub-heading1{
+		font-size: 18px;
+	}
+	.mwb-affiliate-banner-content p{
+		font-size: 16px;
+		margin-bottom: 0;
+	}
+	.mwb-affiliate-page__sub-heading1{
+		font-size: 18px;
+	}
+	.mwb-mwb-affiliate-btn-wrapper .mwb_btn_shadow {
+		width: 130px !important;
+		font-size: 14px !important;
+		padding: 12px;
+		text-align: center;
+	}
+	.mwb-affiliate-page td{
+		display: table-cell;
+	}
+}
+@media only screen and (max-width: 460px) {
+	.mwb-affiliate-page td{
+		font-size: 14px;
+	}
+	.mwb-affiliate-page__commission th {
+		font-family: 'Nunito Sans-SemiBold';
+		font-size: 13px;
+		padding: 4px;
+
+	}
+}

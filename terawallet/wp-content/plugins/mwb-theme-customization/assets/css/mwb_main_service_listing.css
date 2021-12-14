@@ -1,0 +1,255 @@
+/*=============================================
+=            Services Main Page Style            =
+=============================================*/
+.mwb_service_container {
+    padding-top: 60px;
+}
+.mwb_services_cat_wrap {
+    width: 18%;
+    float: left;
+    padding: 10px;
+}
+.mwb_services_catagories {
+    margin-bottom: 25px;
+    position: relative;
+}
+.mwb_services_catagories h3 {
+    font-size: 16px;
+    background: #EAF0F6;
+    padding: 10px;
+    margin-bottom: 0;
+    color: #333333;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.mwb_services_cat_content {
+    padding-left: 10px;
+    border: 1px solid #ededed;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.mwb_services_cat_content ul {
+    margin-top: 25px;
+}
+.mwb_service_active {
+    font-weight: bold;
+}
+.mwb_services_cat_content ul li a {
+    display: block;
+    color: #333333;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.mwb_service_container .mwb_services_cat_result {
+    width: 80% !important;
+    float: right !important;
+    margin-top: 0 !important;
+}
+.mwb_services_cat_heading {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.mwb_service_container .mwb_microservice_list_wrapper {
+    display: inline-block;
+    margin-right: 2%;
+    vertical-align: top;
+    width: 31.5%;
+    margin-bottom: 30px;
+    border: 1px solid #ededed;
+    min-height: 290px;
+    box-shadow: 0px 0px 14px rgba(0,0,0,0.1);
+}
+
+.mwb_service_container .mwb_microservice_list_wrapper .siteorigin-widget-tinymce {
+    padding: 20px 10px;
+}
+.mwb_service_container .mwb_microservice_list_wrapper .mwb-servc-features_icon {
+    background: #00688B;
+    color: #ffffff;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    border-radius: 50%;
+    box-shadow: 5px 0px 0px 5px rgba(0,104,139,0.2);
+}
+.mwb_service_container .mwb_services_cat_result .mwbviewservicelisttitle {
+    font-size: 18px;
+    margin-top: 1rem;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    min-height: 65px;
+    margin-bottom: 0;
+}
+.mwb_service_container .mwbviewservicelisttitle:hover {
+    color: #333333;
+}
+.mwb_service_container .mwbservice_short-desc {
+    margin-bottom: 20px;
+    line-height: normal;
+    margin-top: 10px;
+    min-height: 76px;
+}
+.mwb_service_container .mwbviewservicelistprice {
+    text-align: center;
+}
+.mwb_service_container .mwbviewservicelistprice .woocommerce-Price-amount.amount {
+    display: inline-block;
+    text-align: center;
+    padding-right: 5px;
+    color: #00688B;
+    font-weight: bold;
+}
+.mwb_service_container .mwb_microservice_list_wrapper:nth-of-type(3n) {
+    margin-right: 0;
+}
+/*.mwb_service_container .mwb_microservice_list_wrapper:nth-of-type(4n) {
+    margin-right: 2%;
+}*/
+.mwb_service_container .mwbmicroservices {
+    padding: 0 !important;
+}
+.mwb_service_container .mwb_microservice_list_wrapper a {
+    text-decoration: none;
+    color: #333333;
+}
+.mwb_service_container .mwb_services_type h3 {
+    font-size: 16px;
+    background: #EAF0F6;
+    padding: 10px;
+    margin-bottom: 0;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.mwb_service_container .mwb_services_cat_tag {
+    display: inline-block;
+    background: #EAF0F6;
+    padding: 2px 12px;
+    font-size: 13px;
+    border: 1px solid #CBD6E2;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.mwb_service_container .mwb_services_cat_tags .mwb_services_clear {
+    margin-left: 10px;
+    font-size: 16px;
+}
+/* button code */
+.mwb_servc_btn a {
+    color: #00688B !important;
+    text-transform: uppercase;
+}
+.mwb_servc_btn {
+    text-align: center;
+    margin-top: 20px;
+}
+.mwb_service_container .widget {
+    margin-bottom: 10px;
+}
+/*==========================================
+=            Service-Grid-Strip            =
+==========================================*/
+/*.mwb_service_grid_main_wrapper
+{
+    border: 1px solid #e7e7e7;
+    padding: 13px;
+}*/
+.mwb-service_grid_strip_wrapper {
+    width: 100%;
+    padding: 10px 18px;
+    /*background: #f7f7f7;*/
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.mwb-service_grid_strip_category {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    vertical-align: middle;
+}
+.mwb-service_grid_strip_category h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+.mwb-service_grid_strip_viewall {
+    width: 49%;
+    display: inline-block;
+    text-align: right;
+}
+.mwb-service_grid_strip_viewall a
+{
+    background: #00688B;
+    color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    border: none;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 7px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: box-shadow .2s ease;
+    cursor: pointer;
+    outline: none;
+}
+
+/*=====  End of Service-Grid-Strip  ======*/
+
+/*=====  End of Services Main Page Style  ======*/
+
+@media only screen and (max-width: 992px) {
+    .mwb_service_container .mwb_microservice_list_wrapper {
+        width: 47%;
+    }
+    .mwb_service_container .mwb_microservice_list_wrapper:nth-of-type(3n) {
+    margin-right: 2%;
+    }
+    .mwb-service_grid_strip_category h2 {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 767px) {
+	/*====================================
+	=      Services Main Page Style      =
+	====================================*/
+	.mwb_services_cat_wrap {
+	    width: 100%;
+	    padding: 0;
+	}
+	.mwb_service_container .mwb_services_cat_result {
+	    width: 100% !important;
+	    padding-top: 40px;
+	}
+	.mwb_service_container {
+	    display: block;
+	}
+	.mwb_service_container .mwb_microservice_list_wrapper:nth-of-type(3n) {
+	    margin-right: 2%;
+	}
+	.mwb-service_grid_strip_category {
+	    width: 61%;
+	}
+	.mwb-service_grid_strip_viewall {
+	    width: 36%;
+	}
+	.mwb-service_grid_strip_category h2
+	{
+	    font-size:20px;
+	}
+	.mwb-service_grid_strip_viewall a
+	{
+	    padding:7px 10px;
+	}
+	.mwb-service_grid_strip_wrapper
+	{
+	    padding:10px;
+	}
+	/*=====  End of Services Main Page Style  ======*/
+}
+@media only screen and (max-width: 500px) {
+   .mwb_service_container .mwb_microservice_list_wrapper {
+        width: 100%;
+    }
+}

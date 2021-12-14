@@ -1,0 +1,450 @@
+div#mwb_top_offer_bar {
+    display: none !important;
+}
+/*======================================
+=            banner-section            =
+======================================*/
+.mwb-dm-pricing-plan-banner{
+    position: relative;
+}
+.mwb-dm-pricing-plan-banner__content {
+    padding-right: 30px;
+}
+.mwb-dm-pricing-btn{
+    background: #2196f3;
+    color: #fff !important;
+    padding: 10px 30px;
+    border-radius: 25px;
+    text-transform: capitalize;
+}
+.mwb-dm-pricing-plan-banner__content .mwb_dma-head-style {
+    text-align: left;
+    margin-bottom: 0;
+}
+.mwb-dm-pricing-btn:hover{
+    color: #ffffff;
+}
+.pulse-animation {
+    width: 100px;
+    height: 100px;
+    background: 
+    #ff44bb;
+    border-radius: 50%;
+    color:
+    #FFF;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+    animation: animate-pulse 3s linear infinite;
+    position: absolute;
+    left: -60px;
+    opacity: .5;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.move-circle::after, .move-circle::before {
+    content: "";
+    height: 50px;
+    width: 50px;
+    background: 
+    #2196f3;
+    border-radius: 50%;
+    opacity: 0.4;
+    position: absolute;
+    top: 120px;
+    left: 20%;
+    animation: moving-dot-1 2.8s infinite, animate-pulse 3s linear infinite;
+}
+.move-circle::before {
+    top: auto;
+    left: auto;
+    right: 30px;
+    bottom: 20px;
+    animation: moving-dot-2 2.8s infinite, animate-pulse 3s linear infinite;
+}
+
+.move-triangle::after, .move-triangle::before {
+    position: absolute;
+    content: "";
+    border-left: 30px solid 
+    transparent;
+    border-right: 30px solid
+    transparent;
+    border-bottom: 30px solid
+    #2196f3;
+    height: 0px;
+    width: 0px;
+    bottom: 10%;
+    right: 191px;
+    margin: 0 auto;
+    left: 0;
+    opacity: 0.5;
+    animation: moving-triangle-1 2.8s infinite;
+}
+.move-triangle::before {
+    bottom: auto;
+    right: 0;
+    margin: 0 auto;
+    left: 0;
+    opacity: 0.5;
+    top: 20%;
+    transform: rotate(60deg);
+    animation: moving-triangle-2 2.8s infinite;
+}
+.mwb-dm-pricing-plan-banner img{
+    width: 90%;
+}
+
+/* animation-keyframes */
+@-webkit-keyframes moving-dot-1 {
+    0% { left: 20%;}
+    50%{ left :23%}
+    100%{ left: 20%;}
+}
+@-webkit-keyframes moving-dot-2 {
+    0% { right: 30px;}
+    50%{ right :60px}
+    100%{ right: 30px;}
+}
+@-webkit-keyframes moving-triangle-1 {
+    0% { bottom: 10%;}
+    50%{ bottom :14%}
+    100%{ bottom: 10%;}
+}
+@-webkit-keyframes moving-triangle-2 {
+    0% { top: 20%;}
+    50%{ top :24%}
+    100%{ top: 20%;}
+}
+@keyframes animate-pulse{
+    0% {
+        box-shadow: 0 0 0 0 rgba(33,150,243,.7), 0 0 0 0 rgba(33,150,243,.7);
+    }
+    40% {
+        box-shadow: 0 0 0 50px rgba(33,150,243,0), 0 0 0 0 rgba(33,150,243,.7);
+    }
+    80% {
+        box-shadow: 0 0 0 50px rgba(33,150,243,0), 0 0 0 30px rgba(33,150,243,0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(33,150,243,0), 0 0 0 30px rgba(33,150,243,0);
+    }
+}
+/*=====  End of banner-section  ======*/
+
+/*=======================================
+=            pricing-section            =
+=======================================*/
+.mwb_dma-head-style {
+    color:#000000;
+    font-family: 'Nunito Sans-Black';
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.mwb_dma-head-style span {
+    color: #2196f3;
+}
+.mwb-dm-pricing-plan__content {
+    max-width: 770px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+.mwb-dm-pricing-plan{
+    background-color: #EBF5FD;
+    position: relative;
+}
+.mwb-dm-pricing-plan p{
+    text-align: center;
+}
+.mwb-dm-pricing-plan__list p{
+    border-right: 5px solid #2196f3;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Nunito Sans-Black';
+    padding-right: 20px;
+    color:#000;
+}
+.mwb-dm-pricing-plan__price p{
+    font-size: 32px;
+    font-family: 'nunito sans-black';   
+}
+.mwb-dm-pricing-plan__price p strike{
+    font-size: 18px;
+}
+.mwb-dm-pricing-plan:after{
+    background-image: url(https://makewebbetter.com/wp-content/uploads/2019/10/dot-layout.png);
+    position: absolute;
+    background-repeat: repeat;
+    height: 22vh;
+    width: 14vw;
+    content: "";
+    top: 10%;
+    transform: translateY(-50%);
+    opacity: .5;
+}
+/*=====  End of pricing-section  ======*/
+
+/*========================================
+=            services-listing            =
+========================================*/
+.mwb-woo-step.step-1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 auto;
+    padding-bottom: 75px;
+}
+.mwb-woo-step.step-1 .mwb-woo-step-desc {
+    flex: 0 0 50%;
+    padding-left: 93px;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+.mwb-woo-step .mwb-woo-step-desc h3 span{
+    font-size: 15px;
+    text-align: left;
+    display: block;
+    padding-top: 5px;
+    color: #5a5a5a;
+}
+.mwb-woo-step.step-2 .mwb-woo-step-desc h3 span{
+    text-align: right;
+}
+.mwb-woo-step .step {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #2196F3;
+    font-size: 120px;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans-Black';
+    line-height: 85px;
+}
+.mwb-woo-step.step-1 .mwb-woo-step-desc h3:before {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    content: '';
+    background: #2196F3;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: left;
+    -moz-transform-origin: left;
+    -ms-transform-origin: left;
+    transform-origin: left;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.mwb-woo-step.step-2 .mwb-woo-step-desc h3:before {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    right: 0;
+    content: '';
+    background: #2196F3;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: right;
+    -moz-transform-origin: right;
+    -ms-transform-origin: right;
+    transform-origin: right;
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+.mwb-woo-step:hover .mwb-woo-step-desc h3:before {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+.mwb-woo-step .mwb-woo-step-desc h3 {
+    border-bottom: 1px solid #696969;
+    padding: 0 0 12px 0;
+    margin: 0 0 30px 0;
+    position: relative;
+    z-index: 2;
+    font-family: 'Nunito Sans-Black';
+    font-size: 20px;
+}
+.mwb-woo-step .mwb-woo-step-desc h3 a {
+    display: block;
+    letter-spacing: 0.5px;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 24px;
+    color:#000000;
+}
+.mwb-woo-step.step-1 .mwb-woo-step-img {
+    flex: 0 0 48%;
+    height: auto;
+}
+.mwb-woo-step.step-1 .mwb-woo-step-desc p{
+    text-align: left;
+}
+.mwb-woo-step.step-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 75px;
+}
+.mwb-woo-step.step-2 .mwb-woo-step-img{
+    flex: 0 0 48%;
+    height: auto;
+}
+.mwb-woo-step.step-2 .mwb-woo-step-desc {
+    flex: 0 0 50%;
+    position: relative;
+    text-align: left;
+    padding-right: 90px;
+}
+.mwb-woo-step.step-2 .mwb-woo-step-desc .step {
+    right: 0;
+    top: 10px;
+    left: auto;
+}
+.mwb-woo-step.step-2 .mwb-woo-step-desc h3 a  {
+    display: inline-block;
+}
+.mwb-woo-steps-head h2,
+.mwb-woo-services-head h2,
+.mwb-woo-top-4-head h2{
+    color: #000000;
+    font-family: 'Nunito Sans-Black';
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.mwb-woo-tell-us-detail.mwb-col-6.no-space {
+    width: 60%;
+}
+.mwb-woo-tell-us-cta.mwb-col-6.no-space {
+    width: 40%;
+}
+.mwb-woo-steps-head {
+    padding-bottom: 30px;
+}
+.mwb-ang-para {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 50px
+}
+.mwb-ang-para h5 {
+    font-weight: bold;
+}
+.mwb-dm-pricing-plan-serives__list li{
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+    margin-bottom: 8px;
+    font-size: 13px;
+    position: relative;
+
+}
+.mwb-dm-pricing-plan-serives li{
+    vertical-align: top;
+    margin-bottom: 8px;
+    font-size: 14px;
+    position: relative;
+}
+.mwb-dm-pricing-plan-serives span {
+    display: inline-block;
+    padding-left: 30px;
+}
+.mwb-dm-pricing-plan-serives li::before {
+    position: absolute;
+    content: "";
+    background: green;
+    height: 2px;
+    width: 6px;
+    top: 16px;
+    transform: rotate(52deg);
+    left: 4px;
+}
+.mwb-dm-pricing-plan-serives li::after {
+    position: absolute;
+    content: "";
+    left: 7px;
+    height: 2px;
+    width: 13px;
+    background: green;
+    top: 13px;
+    transform: rotate(-40deg);
+}
+.mwb_dma-head-style span{
+    padding-left: 0;
+}
+.mwb-dm-pricing-plan__note{
+    text-align: left;
+    padding-top: 24px;
+}
+.mwb-dm-pricing-plan__note span{
+    font-weight: bold;
+}
+/*=====  End of services-listing  ======*/
+
+/*media-query*/
+@media only screen and (max-width:960px) {
+    .page-template .site-inner {
+        padding:0
+    }
+}
+@media only screen and (max-width: 848px) {
+    .mwb-dm-pricing-plan-serives__list li {
+        display: block;
+        width: 100%;
+    }
+ }
+ @media only screen and (max-width: 768px) {
+    .mwb-dm-pricing-plan-wrapper .flex-box {
+        display: block;
+    }
+    .mwb-woo-step.step-1{
+        display: block;
+    }
+    .mwb-woo-step.step-2{
+        display: block;
+    }
+    .mwb-dm-pricing-plan__list p{
+        border-right: 0;
+    }
+    .mwb-woo-step-img {
+        display: none;
+    }
+    .mwb-woo-step .step {  
+        font-size: 80px;
+    }
+    .mwb-woo-step.step-1 .mwb-woo-step-desc {
+        padding-left: 65px;
+    }
+    .mwb-woo-step.step-2 .mwb-woo-step-desc {
+        padding-right: 65px;
+    }
+    .mwb_dma-head-style {
+        font-size: 35px;
+    }
+    .mwb-woo-steps-head h2, .mwb-woo-services-head h2, .mwb-woo-top-4-head h2 {
+        font-size: 35px;
+    }
+    .mwb-dm-pricing-plan__price p {
+        font-size: 26px;
+    }
+    /*.mwb-dm-pricing-plan__list p {
+        font-family: 'Nunito Sans-light';
+    }*/
+}
+/*end*/

@@ -1,0 +1,223 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MWB WooCommerce Shipping MapV1.0.0\n"
+"POT-Creation-Date: 2018-05-28 11:42+0530\n"
+"PO-Revision-Date: 2018-05-28 11:44+0530\n"
+"Last-Translator: \n"
+"Language-Team: makewebbetter <webmaster@makewebbetter.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"woocommerce-shipping-map/\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mwb-woocommerce-shipping-map.php:115
+msgid "Settings"
+msgstr ""
+
+#: mwb-woocommerce-shipping-map.php:131
+msgid ""
+"WooCommerce is not activated, Please activate Woocommerce first to install "
+"MWB WooCommerce Shipping Map"
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:115
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:116
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:175
+msgid "MWB WooCommerce Shipping Map"
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:165
+#: admin/partials/mwb-woocommerce-shipping-map-admin-license.php:41
+msgid "Activate"
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:165
+#, php-format
+msgid ""
+" the license key before %s or you may risk losing data and the plugin will "
+"also become dysfunctional."
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:197
+msgid "General Options"
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:201
+msgid "License Activation"
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:205
+msgid "Help"
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:207
+msgid "About Us"
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:226
+msgid "Save Options"
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:293
+msgid "Enable"
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:315
+msgid "Enable the plugin."
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:317
+msgid "Enable the checkbox if you want this extension to work. "
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:359
+msgid "Successfully Verified..."
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:364
+msgid "License Verification Failed."
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:572
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:667
+msgid "Sorry unable to find shipping address. Please try after sometime."
+msgstr ""
+
+#: admin/class-mwb-woocommerce-shipping-map-admin.php:578
+msgid "Sorry unable to find store address. please try after sometime"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-license.php:20
+msgid "Enter your License"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-license.php:23
+msgid "This is the License Activation Panel. After purchasing extension from "
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-license.php:25
+msgid "MakeWebBetter"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-license.php:28
+msgid ""
+"you will get the purchase code of this extension. Please verify your "
+"purchase below so that you can use the features of this plugin."
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-license.php:33
+msgid "Purchase Code : "
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-license.php:35
+msgid "Enter your code here."
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-help.php:19
+msgid ""
+"Your request is submitted successfully. Our team will respond as soon as "
+"possible."
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-help.php:24
+msgid "Your request is not submitted. Please try again."
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-help.php:36
+msgid "Suggestion or Query"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-help.php:39
+msgid "Enter Suggestion or Query title here"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-help.php:45
+msgid "Enter Suggestion or Query detail here"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-help.php:51
+msgid "Send Suggestion"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-help.php:71
+msgid "Documentation"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-help.php:77
+msgid "FAQ"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-view-map.php:15
+msgid ""
+"Note: Green Marker indicates Shipping address and Red Marker indicates Store "
+"address"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-about_us.php:30
+msgid ""
+"Our professional team deals with throughout analysis of the inquiry "
+"published, support team maintains a detailed report on the inquiry extended "
+"by the customer. Then a meeting gets scheduled with our project manager with "
+"who guidance a roadmap gets managed and according to it, work starts off! "
+"Apart from this, you will get 24x7 support service and quick response"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-about_us.php:46
+msgid ""
+"Our team of trendsetters largely comprise of 5+ years of experience holder "
+"professionals from the industry who well know the Knitty-gritty of the "
+"industry, designers, content visualizers, developers and other creative "
+"professionals at large. We have surely spent much time designing great "
+"solutions for your web's smooth functioning all from scratch and thus we "
+"came out as great creators"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-about_us.php:47
+msgid ""
+"In next 20 years, we will try to come out with something more valuable yet "
+"outstanding digital result for the new world which is ready to knock our "
+"doors!"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-about_us.php:52
+msgid "our plans"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-about_us.php:60
+msgid ""
+"We are always trying to help our clients with all possible manners thats why "
+"we are came with monthly/yearly basis plan so purchase a plan now and we "
+"will take care of all things"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-about_us.php:66
+msgid "Monthly/Yearly Plan"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-about_us.php:72
+msgid "our microservices"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-about_us.php:80
+msgid ""
+"We are also provide micro services for taking sort term of services and our "
+"experts will boost your site so please take a look of our micro-services"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-about_us.php:85
+msgid "Check Our Microservices"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-about_us.php:100
+msgid "our featured plugins"
+msgstr ""
+
+#: admin/partials/mwb-woocommerce-shipping-map-admin-about_us.php:127
+msgid "Buy Now"
+msgstr ""

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Philosopher';
+    src: url('Philosopher-BoldItalic.eot');
+    src: url('Philosopher-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Philosopher-BoldItalic.woff2') format('woff2'),
+        url('Philosopher-BoldItalic.woff') format('woff'),
+        url('Philosopher-BoldItalic.ttf') format('truetype'),
+        url('Philosopher-BoldItalic.svg#Philosopher-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('Philosopher-Italic.eot');
+    src: url('Philosopher-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Philosopher-Italic.woff2') format('woff2'),
+        url('Philosopher-Italic.woff') format('woff'),
+        url('Philosopher-Italic.ttf') format('truetype'),
+        url('Philosopher-Italic.svg#Philosopher-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('Philosopher.eot');
+    src: url('Philosopher.eot?#iefix') format('embedded-opentype'),
+        url('Philosopher.woff2') format('woff2'),
+        url('Philosopher.woff') format('woff'),
+        url('Philosopher.ttf') format('truetype'),
+        url('Philosopher.svg#Philosopher') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url('Philosopher-Bold.eot');
+    src: url('Philosopher-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Philosopher-Bold.woff2') format('woff2'),
+        url('Philosopher-Bold.woff') format('woff'),
+        url('Philosopher-Bold.ttf') format('truetype'),
+        url('Philosopher-Bold.svg#Philosopher-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

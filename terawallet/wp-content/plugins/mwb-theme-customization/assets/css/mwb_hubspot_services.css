@@ -1,0 +1,627 @@
+.flex-box{
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.mwb_hub_ecom__wrap {
+    position: relative;
+    overflow: hidden;
+}
+.mwb_btn_fill {
+    margin-top: 22px;
+    background: #2196F3;
+    border-radius: 46px;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    margin-right: 10px;
+    display: inline-block;
+    line-height: normal;
+}
+.mwb_hub_temp_service a.button.mwb_btn_fill {
+    font-size: 18px;
+    padding: 12px 40px;
+}
+.mwb_btn_fill:hover,.mwb_btn_fill:focus{
+    background-color: #2196F3;
+}
+.mwb_hub_ecom p {
+    color: #000;
+}
+.mwb_hub_ecom h3 {
+    font-family: 'Nunito Sans-Black';
+    font-size: 20px;
+    color: #000000;
+}
+.mwb_hub_temp_service-header .button.mwb_btn_fill {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: 'Nunito Sans';
+    margin-right: 0;
+    margin-top: 35px;
+    padding: 16px 50px !important;
+}
+.mwb_hub_temp_service-header{
+    background: linear-gradient(to right,#4168F3,#47D1F8);
+}
+.mwb_header_link_listing li{
+    display: inline-block;
+    padding-right: 30px;
+    color: #ffffff;
+}
+.mwb_header_link_listing li a {
+    color: #ffffff;
+}
+.mwb_header_link_listing li i {
+    margin-right: 10px;
+}
+.mwb_header_link_listing li span{
+    display: inline-block;
+    vertical-align: top;
+}
+.mwb_content_width {
+    margin: 0 auto 20px auto !important;
+    max-width: 992px;
+    width: 100%;
+}
+.mwb_hub_temp_service .mwb_hub_temp_service-header h1 {
+    font-size: 70px;
+    font-family: 'Nunito Sans-Black';
+    color: #ffffff;
+}
+.mwb_hub_temp_service .mwb_hub_temp_service-header p{
+    color: #ffffff;
+}
+.mwb_hub_ecom__wrap p {
+    font-size: 22px;
+}
+.mwb_hub_ecom__roundleft {
+    bottom: -238px;
+    left: 0;
+    top: auto;
+    z-index: -1;
+    position: absolute;
+}
+.mwb_hub_ecom h2 {
+    font-size: 46px;
+    color: #000000;
+    font-family: 'Nunito Sans-Black';
+}
+.mwb_front__story::after {
+    background-image: url("https://makewebbetter.com/wp-content/uploads/2019/10/dot-layout.png");
+    content: "";
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    opacity: 0.2;
+    z-index: -1;
+}
+.mwb_front__section-left {
+    width: 34%;
+    float: left;
+}
+.mwb_front__section-right {
+    width: 64%;
+    float: left;
+    position: relative;
+    margin-left: 2%;
+}
+.mwb_front__client-elem1 {
+    position: absolute;
+    left: 0;
+}
+.mwb_front__client-stories .mwb_front__client-story:nth-of-type(5) img {
+    max-width: 80px;
+}
+.mwb_front__client-story {
+    padding: 0 20px;
+    width: 25%;
+    align-items: center;
+    min-height: 110px;
+}
+.mwb_front__client-story:nth-of-type(1),
+.mwb_front__client-story:nth-of-type(2),
+.mwb_front__client-story:nth-of-type(3),
+.mwb_front__client-story:nth-of-type(4) {
+    margin-bottom: 30px;
+}
+.mwb_front__client-stories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mwb_front__client-elem1 {
+    position: absolute;
+    left: 0;
+}
+.mwb_front__client-elem6 {
+    position: absolute;
+    left: 95px;
+    top: -45px;
+}
+.mwb_front__client-elem5 {
+    position: absolute;
+    top: -50px;
+    left: 76px;
+    right: 0;
+    margin: 0 auto;
+}
+.mwb_front__client-elem4 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: 0;
+}
+.mwb_front__client-elem2 {
+    position: absolute;
+    right: 0;
+}
+.mwb_front__client-elem3 {
+    position: absolute;
+    bottom: 0;
+}
+.mwb_front__section-right br {
+    display: none;
+}
+.mwb_front__story{
+    position: relative;
+}
+.mwb_front__client-story:nth-of-type(2n){
+    margin-top: -35px;
+}
+.mwb_hub_ecom h2.mwb_front__top_heading.text-center.mwb_contnt_width {
+    margin-bottom: 25px;
+}
+.mwb_front__reviews {
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+    padding: 30px 20px;
+    max-width: 767px;
+    margin: 40px auto 0;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    -ms-align-items: baseline;
+    align-items: baseline;
+}
+.mwb_front__reviews::before {
+    content: '\201C';
+    color: #cfd8dc;
+    background: 0 0;
+    font-size: 140px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: -74px;
+}
+.mwb_front__photo {
+    width: 120px;
+    position: relative;
+    z-index: 1;
+}
+.mwb_front__photo:after {
+    border-radius: 50% 60% 60% 40% / 50% 41% 60% 60%;
+    content: "";
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(to right,#4168F3,#47D1F8);
+    position: absolute;
+    bottom: 20px;
+    z-index: -1;
+}
+.mwb_front__quote {
+    width: calc(100% - 140px);
+    margin-left: 20px;
+}
+.mwb_front__reviews .mwb_front__photo img {
+    max-width: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.mwb_front__quote {
+    width: calc(100% - 140px);
+    margin-left: 20px;
+}
+.mwb_front__reviews .mwb_front__quote h4 {
+    font-family: 'Nunito Sans-Bold';
+    color: #000000;
+    font-size: 20px;
+}
+.mwb_front__quote blockquote {
+    margin: 0;
+}
+.mwb_front__quote blockquote::before{
+    display: none;
+}
+.mwb_front__reviews h5 a {
+    font-size: 16px;
+    font-family: 'Nunito Sans-Bold';
+}
+.mwb_hub_ecom .mwb_front__review-section {
+    position: relative;
+}
+.mwb_hub_ecom-background {
+    background: #f9f8fc;
+}
+.mwb_services-page__ele3 {
+    position: absolute;
+    bottom: 0;
+    left: 83px;
+    opacity: 0.2 !important;
+    transform: rotate(-20deg);
+}
+.mwb_hubspot_pillar_row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.mwb_hubspot_pillar_row > div {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 20px;
+    background-color: transparent;
+}
+.mwb_hubspot_pillar_row .mwb-col-3 {
+    max-width: 33.333%;
+    flex: 0 0 33.333%;
+    width: 100%;
+}
+.mwb_hubspot_pillar_row .mwb_hubspot_pillar_help_column {
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+    padding: 30px 20px;
+    border-radius: 4px;
+    border-top: 4px solid #2196F3;
+}
+.mwb_hubspot_pillar_process_column {
+    position: relative;
+    text-align: center;
+}
+.mwb_hubspot_pillar_process_step {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 20px;
+    border: 3px solid #2196F3;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mwb_hubspot_pillar_process_image {
+    position: absolute;
+    right: -132px;
+    top: -30px;
+    max-width: 230px;
+}
+.mwb_hubspot_pillar_row .mwb-col-3:last-child .mwb_hubspot_pillar_process_image {
+    display: none;
+}
+.mwb_hubspot_pillar_process_column h4 {
+    font-family: "Nunito Sans-SemiBold";
+    color: #000000;
+}
+/*hubspot schedule section*/
+.mwb_hubspot_help_section  a.button.mwb_btn_fill{
+    margin-right: 0;
+}
+.mwb_hubspot_pillar_schedule {
+    padding: 40px 0;
+    background: linear-gradient(to right,#4168F3,#47D1F8);
+}
+/*end hubspot schedule section*/
+.mwb_hubspot_pillar_row .mwb_hubspot_pillar_help_column {
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+    padding: 30px 20px;
+    border-radius: 4px;
+    border-top: 4px solid #2196F3;
+}
+.mwb_hubspot_pillar_help_column ul {
+    min-height: 110px;
+}
+.mwb_hubspot_pillar_help_column ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    text-align: left;
+}
+/*Vanity Metrics*/
+.mwb_hubspot_silver_partner_wrap {
+    text-align: center;
+    max-width: 961px;
+    margin: 30px auto 190px;
+    position: relative;
+}
+.mwb_hubspot_silver_logo {
+    max-width: 340px;
+    margin: 0 auto;
+}
+.mwb_hubspot_silver_listing ul li {
+    width: 200px;
+    position: absolute;
+}
+.mwb_hubspot_silver_listing ul li img{
+    max-width: 180px;
+    display: block;
+    margin: 0 auto;
+}
+.mwb_hubspot_silver_listing ul li:first-child {
+    bottom: -100px;
+}
+.mwb_hubspot_silver_listing ul li:nth-child(2) {
+    left: 190px;
+    bottom: -180px;
+}
+.mwb_hubspot_silver_listing ul li:nth-child(3) {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    bottom: -300px;
+}
+.mwb_hubspot_silver_listing ul li:nth-child(4) {
+    right: 190px;
+    bottom: -180px;
+}
+.mwb_hubspot_silver_listing ul li:last-child {
+    bottom: -100px;
+    right: 0;
+}
+/*end Vanity Metrics*/
+.mwb_hubspot_client_succed {
+    max-width: 650px;
+    margin: 30px auto 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+    padding: 40px 25px 25px;
+    border-radius: 6px;
+    background: linear-gradient(to right,#4168F3,#47D1F8);
+    color: #ffffff;
+}
+.mwb_hubspot_client_succed h4 {
+    color: #ffffff;
+    font-family: 'Nunito Sans-Bold';
+}
+.mwb_results_text {
+    font-family: 'Nunito Sans-Bold';
+    color: #ffffff;
+    font-size: 21px;
+}
+.mwb_hubspot_client_succed p, .mwb_hubspot_client_succed a{
+    color: #ffffff;
+}
+.mwb_hubspot_client_image {
+    background-color: #fff;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto 20px;
+}
+.mwb_hubspot_client_succed a.button.mwb_btn_fill{
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+}
+/*contact form */
+.nf-response-msg p {
+    box-shadow: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.nf-response-msg {
+    padding: 10px;
+    text-align: center;
+}
+.nf-response-msg p:first-child {
+    font-size: 24px;
+    font-family: 'Nunito Sans-Bold';
+}
+.mwb_hub_contact_form_wrapper {
+    max-width:767px;
+    margin: 30px auto 0;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+    border: 1px solid #dddddd;
+}
+.mwb_hub_contact_form_wrapper .nf-form-fields-required {
+    display: none;
+}
+.mwb_hub_contact_form_wrapper .ninja-forms-field {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    font-size: 16px;
+    padding: 11px 13px;
+    border-radius: 4px;
+}
+.mwb_hub_contact_form_wrapper .ninja-forms-field:focus{
+    outline: 0;
+}
+.mwb_hub_contact_form_wrapper .nf-field-label label {
+    font-weight: normal;
+}
+.mwb_hub_contact_form_wrapper .submit-wrap {
+    text-align: center;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element input[type="button"] {
+    background-color: #2196F3;
+    color: #ffffff;
+    border-radius: 40px;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 1.5;
+    display: inline-block;
+    padding: 12px 40px;
+    min-width: 180px;
+    margin: 0 auto;
+    border: none;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element input[type="button"]:focus,
+.mwb_hub_contact_form_wrapper .nf-field-element input[type="button"]:hover{
+    background-color: #2196F3;
+    color: #ffffff;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element ul li {
+    position: relative;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element input[type="checkbox"] {
+    margin: 0;
+    opacity: 0;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element input[type="checkbox"] ~ label:before {
+    display: inline-block;
+    content: "";
+    border: 1px solid #dddddd;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element input[type="checkbox"]:checked ~ label:before {
+    background-color: #2196F3;
+    border-color: #2196F3;
+}
+.mwb_hub_contact_form_wrapper .nf-field-element input[type="checkbox"]:checked ~ label:after {
+    content: "\f00c";
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 5px;
+    color: #ffffff;
+    font-size: 12px;
+    top: 4px;
+}
+.mwb_hub_contact_form_wrapper .nf-after-field .nf-error-msg{
+    font-size: 14px;
+}
+/*end contact form */
+@media only screen and (max-width: 992px) {
+    .mwb_front__client-story{
+        width: 50%;
+    }
+    .mwb_hubspot_pillar_process_image {
+        right: -112px;
+        top: -30px;
+        max-width: 170px;
+    }
+    .mwb_hubspot_help_section  .mwb_hubspot_pillar_row .mwb-col-3 {
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+}
+@media only screen and (max-width:960px) {
+  .page-template .site-inner {
+    padding:0
+  }
+}
+@media only screen and (max-width: 767px) {
+    .mwb_front__story .mwb_front__section-left {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    .mwb_front__section-right{
+        margin-left: 0;
+        width: 100%;
+    }
+    .mwb_hubspot_pillar_process_image{
+        display: none;
+    }
+    .mwb_hubspot_pillar_row .mwb-col-3 {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+    .mwb_hub_temp_service .mwb_hub_temp_service-header h1{
+        font-size: 42px;
+    }
+    .mwb_hub_ecom h2 {
+        font-size: 26px;
+    }
+    .mwb_front__client-story {
+        width: 50%;
+    }
+    .mwb_front__client-story:nth-of-type(1),
+    .mwb_front__client-story:nth-of-type(2),
+    .mwb_front__client-story:nth-of-type(3),
+    .mwb_front__client-story:nth-of-type(4){
+        margin-bottom: 30px;
+    }
+    .mwb_hubspot_pillar_row > div{
+        padding: 10px 0;
+    }
+    .mwb_hubspot_silver_partner_wrap{
+        margin: 30px auto 0;
+    }
+    .mwb_hubspot_silver_listing ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .mwb_hubspot_silver_listing ul li {
+        width: 33.333%;
+        position: static;
+        display: inline-block;
+    }
+    .mwb_hubspot_silver_listing ul li img{
+        width: 120px;
+    }
+    .section-pd-100{
+        padding: 50px 0;
+    }
+    .mwb_hubspot_silver_logo {
+        max-width: 260px;
+        margin: 0 auto 20px;
+    }
+    .mwb_hubspot_help_section .mwb_hubspot_pillar_row .mwb-col-3{
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+}
+@media only screen and (max-width: 576px) {
+   .mwb_hubspot_silver_listing ul li img {
+        width: 80px;
+    }
+   .mwb_front__photo {
+        width: 120px;
+        margin: 0 auto;
+    }
+    .mwb_front__quote {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .mwb_header_link_listing li {
+        display: inline-block;
+        padding-right: 26px;
+    }
+    .mwb_hub_contact_form_wrapper .one-half {
+        width: 100%!important;
+        float: none!important;
+        margin: 0 0 10px 0;
+    }
+}

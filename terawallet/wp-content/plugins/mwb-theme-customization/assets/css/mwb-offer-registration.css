@@ -1,0 +1,106 @@
+.offer-registration-container {
+	max-width: 1170px;
+	margin: 0 auto;
+	text-align: center;
+}
+.offer-registration-section {
+	padding-top: 160px;
+	background-color: #b00020;
+}
+.offer-registration-header {
+	background-color: #000;
+	color: #fff;
+	padding: 20px;
+}
+.offer-registration-main-wrapper {
+	display: flex;
+}
+.offer-registration-header h1 {
+	font-family: OpenSans-Bold !important;
+	font-size: 70px;
+	line-height: 1;
+	margin: 18px 0;
+}
+.offer-registration-header p {
+	margin: 0;
+	font-size: 22px;
+	font-weight: 600;
+}
+.offer-registration-footer {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 10px;
+}
+.offer-registration-main-content {
+	background-color: #ffffff;
+}
+.offer-registration-main-content h2 {
+	font-size: 24px;
+	line-height: 1.5;
+	padding: 20px 20px 0 20px;
+}
+.offer-registration-form-wrap {
+	margin-bottom: 15px;
+}
+.offer-registration-form-wrap  input{
+	border-radius: 40px;
+	padding: 10px 20px;
+	border-color: #dddddd;
+	font-size: 16px;
+}
+.offer-registration-form-wrap  input:focus{
+	box-shadow: none;
+	border-color: #dddddd;
+}
+.offer-registration-form {
+	padding: 20px;
+}
+.offer-registration-form .offer-registration-submit-button {
+	background-color: #B00020;
+	border-radius: 40px;
+	padding: 22px 75px;
+	font-family: OpenSans-SemiBold !important;
+	margin-top: 30px;
+	font-size: 16px;
+}
+.offer-registration-form .offer-registration-submit-button:focus{
+	outline: 0;
+}
+.offer-registration-content-wrapper {
+	width: 50%;
+}
+.offer-registration-image-wrapper {
+	width: 50%;
+	padding-left: 40px;
+}
+.offer-registration-image-wrapper img{
+	margin-top: 110px;
+}
+.mwb-offer-response {
+    padding: 10px;
+    color: #3C763D;
+    background-color: #DFF0D8;
+    border-color: #D6E9C6;
+    display: block;
+    margin-bottom: 15px;
+}
+@media screen and (max-width: 767px) {
+	.offer-registration-section {
+		padding-top: 120px;
+		padding-bottom: 50px;
+	}
+	.offer-registration-section{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.offer-registration-content-wrapper{
+		width: 100%;
+	}
+	.offer-registration-main-wrapper{
+		flex-direction: column;
+	}
+	.offer-registration-image-wrapper{
+		display: none;
+	}
+	
+}

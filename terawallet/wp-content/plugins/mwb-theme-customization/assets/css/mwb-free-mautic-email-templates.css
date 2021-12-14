@@ -1,0 +1,110 @@
+.page-template-free-mautic-list .mwb_free_mautic_email_templates
+{
+    width:100%;
+    margin-bottom:50px;
+}
+.page-template-free-mautic-list .mwb_free_mautic_email_templates .widget
+{
+    margin-bottom:0;
+}
+.page-template-free-mautic-list .mwb_free_mautic_email_templates .siteorigin-widget-tinymce
+{
+    padding:0;
+}
+.mwb-mautic-email__wrapper
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.mwb-mautic-email__content .mwbviewservicelisttitle {
+    text-align: left;
+    padding: 0;
+    min-height:auto;
+}
+.mwb-mautic-email__img {
+    float: left;
+    width: 48%;
+    margin-right: 2%;
+}
+.mwb-mautic-email__img img{
+    width:100%;
+}
+.mwb-mautic-email__content {
+    float: left;
+    width: 48%;
+    padding:10px;
+}
+.mwb-mautic-email__content .mwb_short_desc p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.mwb-mautic-email__content .mwbviewservicelistprice{
+    text-align: left;
+}
+.mwb-mautic-email__content .woocommerce-Price-amount.amount
+{
+    color:#000;
+}
+.mwb-mautic-email__content .mwbviewservicelistprice .mwbviewserviceview
+{
+    background: #2196F3;
+    border-radius: 46px;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    line-height: normal;
+    width: auto;
+}
+.mwb-mautic-email__category {
+    color: #000;
+    font-family: 'Nunito Sans-Light';
+    line-height: 1.6em;
+    font-weight: 400;
+}
+.mwb-mautic-email__category span{
+     font-size:14px;
+}
+.mwb-mautic-email__listing {
+    margin: 0 !important;
+    padding: 10px 0 20px 20px !important;
+}
+.mwb-mautic-email__listing li{
+    margin: 0;
+    list-style-type: none !important;
+    position: relative;
+    font-size: 15px;
+}
+.mwb-mautic-email__listing li:after
+{
+    content: "\2713";
+    position: absolute;
+    left: -20px;
+    right: auto;
+    top: 0;
+}
+.clearfix:after{
+    display: block;
+    content:'';
+    clear: both;
+}
+.mwb_mautic_border_bottom {
+    border-bottom: 2px solid #efefef;
+}
+@media only screen and (max-width: 767px) {
+    .mwb-mautic-email__img
+    {
+        width:100% !important;
+        margin-right: 0;
+    }
+    .mwb-mautic-email__content
+    {
+        width:100% !important;
+        padding:20px;
+    }
+}

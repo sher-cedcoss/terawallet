@@ -1,0 +1,299 @@
+.mwb-hubwoo h1,.mwb-hubwoo h2,.mwb-hubwoo h3,.mwb-hubwoo h4,.mwb-hubwoo h5,.mwb-hubwoo h6 {
+    font-family: 'Nunito Sans-Black';
+    color: #000000;
+}
+.mwb-hubwoo p{
+    font-family: 'Nunito Sans';
+    color: #333333;
+    font-size: 18px;
+}
+.mwb-hubwoo-container .mwb-col-6 p {
+    font-size: 22px;
+}
+.section-background {
+    background: #f9f8fc;
+}
+.mwb-hubwoo-features__col-2:nth-of-type(5n),
+.mwb-hubwoo-features__col-2:nth-of-type(6n),
+.mwb-hubwoo-features__col-2:nth-of-type(7n),
+.mwb-hubwoo-features__col-2:nth-of-type(8n) {
+    padding-top: 40px;
+}
+.mwb-hubwoo__service-link a {
+    border-bottom: 1px solid #2196F3;
+    color: #2196F3;
+}
+/* banner section */
+.mwb-hubwoo-header {
+    padding: 100px 0;
+}
+.mwb-hubwoo-container .mwb-col-6:nth-of-type(1) {
+    padding-right: 20px;
+}
+.mwb-hubwoo-container .mwb-col-6:nth-of-type(2) {
+    text-align: right;
+}
+.mwb-hubwoo-header h1 {
+    font-size: 48px;
+}
+.mwb-hubwoo-container p {
+    margin-bottom: 0;
+}
+.mwb-hubwoo-header .mwb_btn_fill {
+    margin-top: 50px;
+}
+.mwb-hubwoo__service-link {
+    font-size: 12px !important;
+    margin-top: 20px;
+}
+.mwb-hubwoo-header .mwb-hubwoo-container {
+    display: flex;
+    align-items: center;
+}
+/*.mwb-hubwoo-header .mwb-hubwoo-container img {
+    max-width: 460px;
+    }*/
+    .mwb_btn_fill:hover, .mwb_btn_fill:focus {
+        background: #2196F3;
+    }
+    .mwb_btn_fill {
+        margin-top: 22px;
+        background: #2196F3;
+        border-radius: 46px;
+        font-size: 18px;
+        padding: 12px 20px;
+        color: #ffffff;
+        border: none;
+        font-family: 'Nunito Sans';
+        font-weight: normal;
+        margin-right: 10px;
+        display: inline-block;
+        line-height: normal;
+    }
+    .mwb-hubwoo-header .mwb_btn_fill {
+    	margin-top: 30px !important;
+    }
+    /* banner section end */
+    /* feature secton */
+    .mwb-hubwoo-feature__highlight {
+        color: #ffffff !important;
+        background: #67AFE7;
+        font-size: 14px !important;
+        margin-top: 20px;
+        border-radius: 2px;
+        padding: 3px;
+    }
+    .mwb-hubwoo h2 {
+        font-size: 46px;
+    }
+    .mwb-hubwoo-features__col-2 {
+        width: 25%;
+        float: left;
+        text-align: center;
+        padding: 20px;
+        min-height: 400px;
+    }
+    .mwb-hubwoo-img img {
+        max-width: 32px;
+        padding-top: 3px;
+    }
+    .mwb-hubwoo-cta {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .mwb-hubwoo-features {
+        padding: 100px 0;
+    }
+    .mwb-hubwoo-img {
+        font-size: 24px;
+        color: #fff;
+        text-align: center;
+        padding-top: 9px;
+    }
+    .mwb-hubwoo-features__col-wrap {
+        padding-top: 60px;
+    }
+    .mwb-hubwoo-features__col-2 h3 {
+        font-size: 20px;
+    }
+    .mwb-hubwoo-img {
+        box-sizing: content-box;
+        width: 55px;
+        height: 50px;
+        position: relative;
+        margin: auto;
+        margin-bottom: 25px;
+        font-size: 24px;
+        -webkit-border-radius: 50% / 14%;
+        border-radius: 50% / 14%;
+        color: #fff;
+        text-align: center;
+        line-height: 64px;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        z-index: 1;
+        background-image: linear-gradient(120deg,#89f7fe 0%,#2196f3 100%);
+    }
+    /* feature section end */
+    /* review section */
+    .client-review-capterra .mwb_trustpilot_wrap:nth-of-type(1) img,
+    .client-review-capterra .mwb_trustpilot_wrap:nth-of-type(2) img {
+        max-width: 100px;
+    }
+    .client-review-star i {
+        color: #e8bf46;
+        padding-right: 3px;
+        font-size: 12px;
+    }
+    .mwb-hubwoo-review {
+        padding: 100px 0;
+    }
+    .mwb-hubwoo-review__wrap {
+        position: relative;
+    }
+    .mwb-hubwoo-review__quote {
+        position: absolute;
+        font-size: 246px;
+        line-height: normal;
+        color: #4168F3;
+        opacity: 0.2;
+        top: -71px;
+        left: -31px;
+    }
+    .mwb-hubwoo-review .mwb-hubwoo-container {
+        max-width: 767px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .mwb-hubwoo-review h2 {
+        padding-bottom: 30px;
+    }
+    .mwb-hubwoo-review .client-review-content h6 {
+        font-family: 'Nunito Sans-SemiBold';
+        font-size: 20px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+    .mwb-hubwoo-review .client-review-content h3 {
+        padding-top: 40px;
+    }
+    .mwb_trustpilot_wrap p {
+        font-size: 18px;
+        font-family: 'Nunito Sans';
+    }
+    .client-review-capterra {
+        padding-top: 40px;
+    }
+    /* review section */
+    /* cta section */
+    .mwb_hub_ecom__getQuote{
+        background-image: linear-gradient(to right,#4168F3,#47D1F8);
+    }
+    .mwb_hub_ecom__getQuote .mwb_front__top_heading {
+        color: #ffffff;
+        text-align: left;
+    }
+    .mwb_hub_ecom__getQuote .mwb-img-right a {
+        width: 410px;
+        padding: 14px;
+        font-size: 20px;
+        box-shadow: 0 4px 4px rgba(0,0,0,.25);
+        background: #fff;
+        color: #2196F3;
+        transition: 0.2s linear all;
+        opacity: 1;
+    }
+    /* cta section end */
+    /* Breathe Section CSS */
+    .mwb-hi-breathe {
+        padding: 100px 0;
+    }
+    .mwb-hi-breathe {
+        text-align: center;
+    }
+    .mwb-hub-temp-certification__center {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .mwb-hub-temp-certification__box {
+        width: 16.33%;
+        display: block;
+        border: 0;
+        text-align: center;
+        background: #fff;
+        padding: 15px 5px 15px;
+    }
+    /* End of Breathe Section CSS */
+    @media only screen and (max-width: 992px) {
+        .mwb-hubwoo-features__col-2 {
+            min-height: auto;
+        }
+        .mwb-hubwoo-header .mwb-hubwoo-container {
+            display: block;
+        }
+        .mwb-hubwoo-container .mwb-col-6 {
+            width: 100%;
+            float: none;
+            text-align: center !important;
+        }
+        .mwb_hub_ecom__getQuote .mwb-col-6 {
+            width: 100%;
+            float: none;
+            text-align: center !important;
+        }
+        .mwb-hubwoo-features__col-2 {
+            width: 50%;
+        }
+        .flex-box {
+            display: block;
+            text-align: center;
+        }
+        .mwb_hub_ecom__getQuote .mwb_front__top_heading {
+            text-align: center;
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        .mwb-hub-temp-certification__box {
+            width: 25%;
+            padding: 10px;
+        }
+        .mwb-hubwoo-header h1 {
+            font-size: 40px;
+        }
+        .mwb-hubwoo h2 {
+            font-size: 30px;
+        }
+        .mwb-hubwoo-review,.mwb-hubwoo-features,.mwb-hubwoo-header,.section-pd-100,.mwb-hi-breathe {
+            padding: 40px 0;
+        }
+        .mwb-hubwoo-features__col-2 {
+            width: 100%;
+        }
+        .mwb-hubwoo-features__col-2 {
+            padding-top: 40px;
+        }
+        .mwb-hubwoo p {
+            font-size: 16px;
+        }
+        .mwb-hubwoo-features__col-wrap {
+            padding-top: 0;
+        }
+        .mwb-hub-temp-certification__box {
+            width: 49.5%;
+            padding: 10px;
+        }
+        .mwb-hubwoo-container .mwb-col-6 p {
+            font-size: 20px;
+        }
+        .mwb_hub_ecom__getQuote .mwb-img-right a {
+            width: 100%;
+            padding: 14px;
+            font-size: 14px;
+        }
+        .mwb-hubwoo-review__quote {
+            font-size: 185px;
+            top: -51px;
+            left: -12px;
+        }
+    }

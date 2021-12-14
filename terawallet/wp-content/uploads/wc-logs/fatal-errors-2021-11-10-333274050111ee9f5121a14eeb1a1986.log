@@ -1,0 +1,107 @@
+2021-11-10T05:47:42+00:00 CRITICAL Uncaught Error: Call to undefined function genesis_register_sidebar() in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php:3764
+Stack trace:
+#0 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(292): MWB_Product_Customization->mwb_remove_tabs_heading('')
+#1 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/terawallet/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(3009): do_action('wp_head')
+#4 /opt/lampp/htdocs/terawallet/wp-content/themes/storefront/header.php(18): wp_head()
+#5 /opt/lampp/htdocs/terawallet/wp-includes/template.php(730): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/terawallet/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#7 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+ in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php on line 3764
+
+2021-11-10T05:57:19+00:00 CRITICAL Uncaught Error: Call to undefined function genesis_register_sidebar() in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php:3764
+Stack trace:
+#0 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(292): MWB_Product_Customization->mwb_remove_tabs_heading('')
+#1 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/terawallet/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(3009): do_action('wp_head')
+#4 /opt/lampp/htdocs/terawallet/wp-content/themes/storefront/header.php(18): wp_head()
+#5 /opt/lampp/htdocs/terawallet/wp-includes/template.php(730): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/terawallet/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#7 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+ in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php on line 3764
+
+2021-11-10T05:57:20+00:00 CRITICAL Uncaught Error: Call to undefined function genesis_register_sidebar() in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php:3764
+Stack trace:
+#0 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(292): MWB_Product_Customization->mwb_remove_tabs_heading('')
+#1 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/terawallet/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(3009): do_action('wp_head')
+#4 /opt/lampp/htdocs/terawallet/wp-content/themes/storefront/header.php(18): wp_head()
+#5 /opt/lampp/htdocs/terawallet/wp-includes/template.php(730): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/terawallet/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#7 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+ in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php on line 3764
+
+2021-11-10T05:57:30+00:00 CRITICAL Uncaught Error: Call to undefined function genesis_register_sidebar() in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php:3764
+Stack trace:
+#0 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(292): MWB_Product_Customization->mwb_remove_tabs_heading('')
+#1 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/terawallet/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(3009): do_action('wp_head')
+#4 /opt/lampp/htdocs/terawallet/wp-content/themes/storefront/header.php(18): wp_head()
+#5 /opt/lampp/htdocs/terawallet/wp-includes/template.php(730): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/terawallet/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#7 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+ in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php on line 3764
+
+2021-11-10T05:59:40+00:00 CRITICAL Uncaught Error: Call to undefined function genesis_register_sidebar() in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php:3764
+Stack trace:
+#0 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(292): MWB_Product_Customization->mwb_remove_tabs_heading('')
+#1 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/terawallet/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(3009): do_action('wp_head')
+#4 /opt/lampp/htdocs/terawallet/wp-content/themes/storefront/header.php(18): wp_head()
+#5 /opt/lampp/htdocs/terawallet/wp-includes/template.php(730): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/terawallet/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#7 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+ in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php on line 3764
+
+2021-11-10T06:00:16+00:00 CRITICAL Uncaught Error: Call to undefined function genesis_register_sidebar() in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php:3764
+Stack trace:
+#0 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(292): MWB_Product_Customization->mwb_remove_tabs_heading('')
+#1 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/terawallet/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(3009): do_action('wp_head')
+#4 /opt/lampp/htdocs/terawallet/wp-content/themes/storefront/header.php(18): wp_head()
+#5 /opt/lampp/htdocs/terawallet/wp-includes/template.php(730): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/terawallet/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#7 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+ in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php on line 3764
+
+2021-11-10T06:00:18+00:00 CRITICAL Uncaught Error: Call to undefined function genesis_register_sidebar() in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php:3764
+Stack trace:
+#0 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(292): MWB_Product_Customization->mwb_remove_tabs_heading('')
+#1 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/terawallet/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(3009): do_action('wp_head')
+#4 /opt/lampp/htdocs/terawallet/wp-content/themes/storefront/header.php(18): wp_head()
+#5 /opt/lampp/htdocs/terawallet/wp-includes/template.php(730): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/terawallet/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#7 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+ in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php on line 3764
+
+2021-11-10T06:00:26+00:00 CRITICAL Uncaught Error: Call to undefined function genesis_register_sidebar() in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php:3764
+Stack trace:
+#0 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(292): MWB_Product_Customization->mwb_remove_tabs_heading('')
+#1 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 /opt/lampp/htdocs/terawallet/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#3 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(3009): do_action('wp_head')
+#4 /opt/lampp/htdocs/terawallet/wp-content/themes/storefront/header.php(18): wp_head()
+#5 /opt/lampp/htdocs/terawallet/wp-includes/template.php(730): require_once('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/terawallet/wp-includes/template.php(676): load_template('/opt/lampp/htdo...', true, Array)
+#7 /opt/lampp/htdocs/terawallet/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+ in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php on line 3764
+
+2021-11-10T06:20:23+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on string in /opt/lampp/htdocs/terawallet/wp-content/plugins/woocommerce/templates/single-product-reviews.php:31
+Stack trace:
+#0 /opt/lampp/htdocs/terawallet/wp-includes/comment-template.php(1554): require()
+#1 /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/includes/class-mwb-product-customization.php(419): comments_template()
+#2 /opt/lampp/htdocs/terawallet/wp-includes/shortcodes.php(343): MWB_Product_Customization->mwb_product_comments_callback('', '', 'mwb_product_com...')
+#3 [internal function]: do_shortcode_tag(Array)
+#4 /opt/lampp/htdocs/terawallet/wp-includes/shortcodes.php(218): preg_replace_callback('/\\[(\\[?)(mwb_pr...', 'do_shortcode_ta...', '<div class="mwb...')
+#5 /opt/lampp/htdocs/terawallet/wp-includes/class-wp-hook.php(292): do_shortcode('<div class="mwb...')
+#6 /opt/lampp/htdocs/terawallet/wp-includes/plugin.php(212): WP_Hook->apply_filters('<div class="mwb...', Array)
+#7 /opt/lampp/htdocs/terawallet/wp-inc in /opt/lampp/htdocs/terawallet/wp-content/plugins/woocommerce/templates/single-product-reviews.php on line 31
+

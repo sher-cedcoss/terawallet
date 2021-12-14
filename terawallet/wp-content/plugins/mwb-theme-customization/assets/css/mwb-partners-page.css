@@ -1,0 +1,223 @@
+.mwb-woo-partners__header-title {
+    color: #000000;
+    font-family: 'Nunito Sans-Black';
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.mwb-woo-partners__header-title span {
+    color: #2196f3;
+    font-size: 50px;
+    font-family: 'Nunito Sans-Black';
+}
+.mwb-woo-partners__header-left.mwb-col-left{
+    width:50%;
+    float:left;
+}
+.mwb-woo-partners____header-right.mwb-col-right
+{
+    width:50%;
+    float:left;
+}
+p.mwb-woo-partners__header-content {
+    font-size: 16px;
+    max-width: 550px;
+    margin-bottom: 10px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.mwb-woo-partners__header-section {
+    background: #edf8ff;
+}
+.mwb-woo-partners__header-image{
+    text-align:center;
+}
+.mwb-woo-partners__header-image img {
+    width: 100%;
+    max-width: 500px;
+}
+.mwb_btn_fill {
+    margin-top: 22px;
+    background: #2196F3;
+    border-radius: 46px;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    margin-right: 10px;
+    display: inline-block;
+    line-height: normal;
+}
+.mwb_btn_fill:hover,
+.mwb_btn_fill:focus {
+    color: #ffffff;
+}
+a.mwb-woo-partners-btn.mwb_btn_fill {
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    border-bottom: 2px solid #0076d4;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+/*=======================================
+=            partner-section            =
+=======================================*/
+.mwb-woo-partners__partner-title {
+    color: #000000;
+    font-family: 'Nunito Sans-Black';
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.mwb-woo-partners__partner-left {
+    margin-right: 4%;
+}
+.mwb-woo-partners__partner-col {
+    width: 48%;
+    float: left;
+    margin-bottom:40px;
+}
+.mwb-woo-partners__content-wrap {
+    border-radius: 4px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    position: relative;
+    min-height: 707px;
+}
+.mwb-woo-partners__partner-header img {
+    width: 100%;
+    max-width: 150px;
+}
+.mwb-woo-partners__partner-header {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #edf8ff;
+}
+.mwb-woo-partners__content {
+    padding: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.mwb-woo-partners__content-title {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #2196f3;
+    font-family: "Nunito Sans-Bold", sans-serif;
+}
+.mwb-woo-partners__content-title a{
+    color: #2196f3;
+}
+.mwb-woo-partners__content p a{
+    color: #2196f3;
+}
+.mwb-woo-partners__content p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: "Nunito Sans", sans-serif;
+    text-align: justify;
+}
+/*============================================
+=            Contact-Form Section            =
+============================================*/
+.mwb-woo-partners__contact-heading {
+    color: #000000;
+    font-family: 'Nunito Sans-Black';
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.mwb-woo-partners__contact-section {
+    background: #F9F8FC;
+}
+.mwb-woo-partners__contact-form-wrapper {
+    max-width: 750px;
+    margin: 30px auto 0;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.08);
+    border: 1px solid #ddd;
+}
+.mwb-woo-partners__contact-section p.mwb_content_width {
+    max-width: 600px;
+    margin: 0 auto;
+}
+/*=====  End of Contact-Form Section  ======*/
+
+@media screen and (max-width:1142px) and (min-width:1021px){
+    .mwb-woo-partners__content-wrap {
+        min-height: 804px;
+    }
+}
+@media screen and (max-width:1020px) and (min-width:901px){
+    .mwb-woo-partners__content-wrap {
+        min-height: 828px;
+    }
+}
+@media only screen and (max-width:960px) {
+    .page-template .site-inner {
+        padding:0
+    }
+}
+@media screen and (max-width:900px) and (min-width:768px){
+    .mwb-woo-partners__partner-col {
+        width: 100%;
+    }
+    .mwb-woo-partners__content-wrap {
+        min-height: auto;
+    }
+}
+/*=====  End of partner-section  ======*/
+@media screen and (max-width: 767px) {
+    .mwb-woo-partners__partner-title
+    {
+        font-size: 30px;
+    }
+    .mwb-woo-partners__contact-heading {
+        font-size: 30px;
+    }
+    .mwb-woo-partners__header-left.mwb-col-left
+    {
+        width:100%;
+    }
+    .mwb-woo-partners____header-right.mwb-col-right {
+        width: 100%;
+    }
+    .mwb-woo-partners__partner-col {
+        width: 100%;
+    }
+    .mwb-woo-partners__content-wrap {
+        min-height: auto;
+    }
+    .mwb-woo-partners__content {
+        padding: 20px;
+    }
+    .mwb-woo-partners__header-section .flex-box {
+        flex-direction: column;
+    }
+    .mwb-woo-partners__header-section {
+        text-align: center;
+    }
+    .mwb-woo-partners__header-content
+    {
+        margin:0 auto;
+
+    }
+    .mwb-woo-partners__header-image {
+        margin-top: 30px;
+    }
+    
+}
+@media screen and (max-width: 420px) {
+    .mwb-woo-partners__header-title {
+        font-size: 38px;
+    }
+    .mwb-woo-partners__header-title span {
+        font-size: 38px;
+    }
+}

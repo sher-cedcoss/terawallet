@@ -1,0 +1,8 @@
+2021-11-18T10:42:22+00:00 CRITICAL Uncaught Error: Call to undefined function genesis() in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/woocommerce/single-product.php:962
+Stack trace:
+#0 /opt/lampp/htdocs/terawallet/wp-includes/template-loader.php(106): include()
+#1 /opt/lampp/htdocs/terawallet/wp-blog-header.php(19): require_once('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/terawallet/index.php(17): require('/opt/lampp/htdo...')
+#3 {main}
+  thrown in /opt/lampp/htdocs/terawallet/wp-content/plugins/mwb-theme-customization/woocommerce/single-product.php on line 962
+

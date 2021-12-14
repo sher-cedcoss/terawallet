@@ -1,0 +1,656 @@
+/*=======================================
+=            contact section            =
+=======================================*/
+.mwb_contact_section label{
+    font-weight: normal !important;
+    font-size: 15px;
+}
+.site-inner {
+    padding: 0 !important;
+    margin-top: 0 !important;
+}
+header.site-header {
+    display: none;
+}
+.mwb_contact_wrapper {
+    margin-top: 0;
+}
+.mwb_contact_wrapper .nf-form-fields-required{
+    display: none;
+}
+h1.mwb-contact-us-title {
+    padding: 20px;
+    background: #2B3C57;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Nunito Sans-Black';
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.mwb_contact_section_form{
+    width: 100%;
+}
+.mwb_contact_section_addr{
+    width: 35%;
+}
+.mwb_contact_section {
+    display: block;
+    margin-right: 0;
+    box-sizing: border-box;
+    text-align: left;
+    vertical-align: top;
+}
+.mwb_contact_section:nth-of-type(2) {
+    margin-right: 0;
+}
+.mwb_contact_btm_section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.mwb_contact_btm_section_wrap{
+    background-color:#2196F3; 
+}
+.mwb_forum,.mwb_doc{
+    width: 48%;
+    text-align: center;
+}
+.mwb_forum{
+    margin-right: 10px;
+}
+.mwb-contact-banner-wrapper {
+    background:url(https://makewebbetter.com/wp-content/uploads/2019/08/contact-us-banner.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: rgba(36, 42, 53, 0.7);
+    }
+.mwb_contact_background:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+    .mwb-contact-banner-content {
+        letter-spacing: 1px;
+        text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 0;
+    transform:translateY(-50%);
+    padding:100px 0 40px;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.nf-response-msg p {
+    border-left: 4px solid #2196f3;
+    padding: 8px 20px;
+    box-shadow: 2px 5px 10px #d0d0d0;
+}
+
+.mwb-contact-banner-content h1
+{
+    margin: 0 0 15px;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 50px;
+}
+.mwb-contact-banner-content p
+{
+    padding:0 100px;
+    font-size:16px;
+    color: #ffffff;
+}
+.mwb-contact-address-wrapper:after
+{
+    display: block;
+    content:'';
+    clear:both;
+}
+.mwb-contact-address-wrapper {
+    padding: 85px 10px 50px 10px;
+    width: 100%;
+    max-width: 560px;
+    text-align: left;
+    float: right;
+}
+.mwb-contact-form-right{
+    background: #f5f5f5;
+}
+.mwb_contact_section.mwb_contact_section_form {
+    padding: 100px 60px 117px 60px;
+    width: 100%;
+    max-width: 570px;
+    margin:0 auto;
+}
+.mwb-contact-phone-img {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+    padding-left: 14px;
+}
+.mwb-contact-phone-img .fas.fa-phone-volume {
+    font-size: 34px;
+    color:#2196F3;
+}
+.mwb-contact-address-section-wrapper{
+    padding-top: 60px;
+}
+.mwb-contact-tech-support-img, .mwb-contact-ask-community-img, .mwb-contact-sales-chat-img, .mwb-contact-ticket-img, .mwb-contact-gmap-img{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 10px;
+}
+.mwb-contact-ask-community-img .fas.fa-users {
+    font-size: 30px;
+    color:#2196F3;
+}
+.mwb-contact-sales-chat-img .fas.fa-comments {
+    font-size: 30px;
+    color:#2196F3;
+}
+.mwb_contact_btm_section_wrap .mwb-contact-tech-support-img .fas.fa-headset {
+    font-size: 30px;
+    color:#ffffff;
+}
+.mwb-contact-ticket-img .fas.fa-ticket-alt {
+    font-size: 30px;
+    color:#2196F3;
+}
+.mwb-contact-ticket-img .fas.fa-briefcase,
+.mwb-contact-ticket-img .fas.fa-shield-alt {
+    font-size: 30px;
+    color:#2196F3;
+}
+.mwb_contact_btm_section_wrap .mwb-contact-gmap-img .fas.fa-map-marker-alt {
+    font-size: 30px;
+    color:#ffffff;
+}
+.mwb-contact-ask-community-desc, .mwb-contact-ticket-desc, .mwb-contact-tech-support-desc{
+    margin-bottom: 0;
+}
+.mwb-contact-tect-support-content, .mwb-contact-ask-community-content, .mwb-contact-gmap-content, .mwb-contact-sales-chat-content, .mwb-contact-ticket-content{
+    display: inline-block;
+    vertical-align: top;
+}
+.mwb-contact-callus-content {
+    display: inline-block;
+    vertical-align: top;
+}
+.mwb-contact-call-us-heading {
+    color: #222222;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 1.23;
+    margin: 0;
+    font-size: 24px;
+}
+.mwb-contact-call-us-number-wrapper {
+    margin-top: 10px;
+}
+.mwb-contact-call-us-number {
+    margin-bottom: 0;
+    word-wrap: break-word;
+    max-width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 2.22;
+}
+.mwb-contact-tech-support-heading, .mwb-contact-ask-community-heading, .mwb-contact-sales-chat-heading, .mwb-contact-ticket-heading {
+    color: #222222;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 1.23;
+    font-size: 24px;
+}
+.mwb_contact_btm_section_wrap .mwb-contact-tech-support-heading,
+.mwb_contact_btm_section_wrap .mwb-contact-tech-support-desc,
+.mwb_contact_btm_section_wrap .mwb-contact-gmap-social-icon i,
+.mwb_contact_btm_section_wrap .mwb-contact-address-section-wrapper .mwb-contact-address-section-heading,
+.mwb_contact_btm_section_wrap .mwb-gmap-content h4,
+.mwb_contact_btm_section_wrap .mwb-gmap-address-desc
+{
+    color:#ffffff;
+}
+.mwb_contact_btm_section_wrap .mwb_btn_shadow{
+    border: none !important;
+    border-radius: 46px;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #2196F3;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    margin-right: 10px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    line-height: normal;
+    margin-top: 20px;
+}
+.mwb_contact_btm_section_wrap .mwb_btn_shadow:hover,
+.mwb_contact_btm_section_wrap .mwb_btn_shadow:focus{
+    color:#2196F3;
+}
+.mwb_contact_btm_section_wrap .mwb-contact-ask-community-btn{
+    margin-right: 25px;
+}
+.mwb-contact-ask-community-btn{
+    display: inline-block;
+    margin-right: 14px;
+    margin-bottom: 0;
+}
+.mwb-contact-tech-support-desc-wrapper, .mwb-contact-ticket-desc-wrapper{
+    margin-top: 15px;
+}
+
+.mwb-contact-ask-community-desc-wrapper, .mwb-contact-sales-chat-desc-wrapper{
+    margin-top: 0;
+}
+.mwb-contact-sales-chat-desc-wrapper p {
+    margin-bottom: 0;
+}
+.mwb-contact-ticket-wrapper p {
+    margin-bottom: 0;
+}
+.mwb-contact-ask-community-desc, .mwb-contact-sales-chat-desc, .mwb-contact-ticket-desc{
+    margin-bottom: 0;
+    word-wrap: break-word;
+    max-width: 100%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.22;
+}
+.mwb-contact-ask-community-wrapper, .mwb-contact-sales-chat-wrapper, .mwb-contact-ticket-wrapper{
+    margin-top: 40px;
+    padding-left: 10px;
+}
+.mwb-contact-tech-support-wrapper {
+    margin-top: 60px;
+    padding-left: 10px;
+}
+.mwb-contact-tech-support-desc{
+    margin-bottom: 0;
+    word-wrap: break-word;
+    max-width: 100%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 2.22;
+}
+.mwb_contact_send_email h4{
+    color: #222222;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 0;
+    font-size: 24px;
+}
+.mwb_contact_send_email {
+    margin-bottom: 0;
+}
+.mwb_contact_send_email p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.mwb_btn_fill{
+    margin-top: 18px;
+    background: #2196F3;
+    border-radius: 46px;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    margin-right: 10px;
+    display: inline-block;
+    line-height: normal;
+}
+h4.mwb-contact-ask-community-heading, h4.mwb-contact-sales-chat-heading {
+    margin-bottom: 0;
+}
+.mwb-gmap-address{
+    display: inline-block;
+}
+.mwb-contact-gmap-social-icon-wrapper {
+    margin-top: 20px;
+}
+.mwb_tech-support-link{
+    color: #2196F3;
+    font-weight: 500;
+    text-decoration: none;    
+}
+.mwb_tech-support-link:hover{
+    color: #2196F3;
+    text-decoration: underline;
+}
+.mwb_btn_fill:hover,
+.mwb_btn_fill:focus {
+    color: #fff;
+}
+.mwb-contact-address-social-icon-wrapper {
+    margin-top: 40px;
+}
+.mwb-contact-address-social-icon {
+    display: inline-block;
+}
+.mwb-contact-address-social-icon i {
+    display: inline-block;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    color: #222222;
+    padding: 5px 13px;
+    font-size: 20px;
+}
+.mwb-contact-address-social-icon i:hover {
+    color: #2196F3;
+}
+.mwb_contact_section_form .nf-form-title h3 {
+    color: #222222;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 1.23;
+    margin: 0;
+    font-size: 24px;
+}
+.mwb_contact_section_form .nf-form-wrap
+{
+    margin-top:15px;
+}
+.mwb_contact_wrapper .nf-error-msg {
+    font-size: 14px;
+}
+.mwb_contact_wrapper .nf-field-container {
+    margin-bottom: 18px;
+}
+.mwb_contact_section_form input.ninja-forms-field{
+    color: #777;
+    border-color: #eee;
+    background-color: #fff;
+    width: 100%;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 0;
+    padding: 3px 20px;
+    height: 40px;
+}
+.mwb_contact_section_form textarea.ninja-forms-field{
+    color: #777;
+    border-color: #eee;
+    background-color: #fff;
+    height: 120px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #eee;
+    border-radius: 0;
+    padding: 12px 20px 3px;
+    max-width: 100%;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.mwb_contact_section_form .field-wrap.submit-wrap input.ninja-forms-field
+{
+    height: 50px;
+    width: 100%;
+    background: #2196F3;
+    border-radius: 46px;
+    font-size: 18px;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    font-family: 'Nunito Sans-Light';
+    font-weight: normal;
+    margin-right: 10px;
+    display: inline-block;
+    line-height: normal;
+}
+.mwb_contact_section_form  .nf-checked-label {
+    margin-bottom: 0;
+    word-wrap: break-word;
+    max-width: 100%;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 2.22;
+    margin-top: -10px;
+}
+.mwb-contact-ticket-heading{
+    margin-bottom: 10px;
+}
+.mwb_contact_section_form .textarea-container
+{
+    margin:0;
+}
+.mwb_contact_section_form  .checkbox-container
+{
+    margin:0;
+}
+.mwb_contact_section_form  .submit-container {
+  margin:0;  
+}
+.mwb-contact-address-section-wrapper .mwb-contact-address-section-heading
+{
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 1.23;
+    margin: 0;
+    font-size: 28px;
+    text-align: left;
+}
+.mwb-section-gmap-wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+    border: 1px solid #cbd6e2;
+    border-radius: .1875rem;
+}
+.mwb-gmap-map-wrapper {
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+}
+.mwb-gmap-content-wrapper {
+   width: 100%;
+   display: inline-block;
+   vertical-align: top;
+   padding: 40px 20px 70px 0px;
+}
+.mwb-gmap-content h4 {
+    color: #222222;
+    font-weight: 600;
+    letter-spacing: 0em;
+    line-height: 1.23;
+    margin: 0;
+    font-size: 20px;
+}
+.mwb-gmap-content .mwb-gmap-adress-info {
+    margin: 0;
+    margin-bottom: 0;
+    word-wrap: break-word;
+    max-width: 100%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 2.22;
+}
+.mwb-gmap-map iframe {
+    display: block !important;
+}
+.mwb-contact-address-section {
+    padding: 64px 32px;
+}
+.mwb-gmap-address-one
+{
+    margin-bottom: 32px;
+    margin-right: 90px;
+}
+.mwb-contact-gmap-social-icon {
+    display: inline-block;
+    padding: 20px 20px 20px 0;
+}
+.mwb-contact-gmap-social-icon i {
+    display: inline-block;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    color: #222222;
+    font-size: 20px;
+}
+.mwb-contact-gmap-social-icon i:hover {
+    color: #ffffff;
+}
+.mwb-gmap-address-desc {
+    margin-top: 15px;
+}
+
+.mwb_contact_section_form ul li input{
+    height: 19px !important;
+}
+.mwb_contact_section_form ul li{
+    width: 49%;
+    display: inline-block;
+}
+.mwb_contact_section_form ul li .nf-checked-label{
+    line-height: 24px !important;
+    font-size: 15px;
+    margin-top: 0;
+}
+/*=====  End of contact section  ======*/
+
+@media only screen and (max-width: 1200px)
+{
+    .mwb_contact_wrapper {
+        margin-top: 0;
+    }
+    /*====================================
+    =            contact-page            =
+    ====================================*/
+    .mwb-gmap-content-wrapper {
+        padding: 40px 20px 20px 0px;
+    }
+    .mwb-gmap-address-one{
+        margin-right: 50px;
+    }
+    /*=====  End of contact-page  ======*/
+}
+
+@media only screen and (max-width: 992px) {
+    /*==========================================
+    =               Contact-Us-Page            =
+    ==========================================*/
+    .mwb_contact_section.mwb_contact_section_form {
+        padding: 60px 20px 100px 20px;
+    }
+    .mwb-contact-address-wrapper {
+        padding: 50px 20px 50px 40px;
+    }
+    .mwb_contact_wrapper {
+        margin-top: 0;
+    }
+    .mwb-gmap-content-wrapper {
+        padding: 40px 0px 20px 0px;
+    }
+    .mwb-gmap-address-one{
+        margin-right: 30px;
+    }
+    /*=====  End of Contact-Us-Page  ======*/
+}
+
+@media only screen and (max-width: 882px) {
+    .mwb_contact_section.mwb_contact_section_form {
+        padding: 60px 20px 195px 20px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    /*==========================================
+    =               Contact-Us-Page            =
+    ==========================================*/
+    .mwb-contact-address-wrapper {
+        padding: 50px 20px 50px 40px;
+    }
+    .mwb_contact_wrapper {
+        margin-top: 0;
+    }
+    .mwb-gmap-content .mwb-gmap-adress-info {
+        font-size: 13px;
+    }
+    .mwb-gmap-content-wrapper {
+        padding: 20px 0px 0px 0px;
+    }
+    .mwb-gmap-address-one{
+        margin-right: 20px;
+    }
+    /*=====  End of Contact-Us-Page  ======*/
+}
+
+@media screen and (max-width: 800px) and (min-width: 768px) {
+    .mwb-gmap-content-wrapper {
+        padding: 20px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    /*==========================================
+    =               Contact-Us-Page            =
+    ==========================================*/
+    .mwb-contact-sales-chat-wrapper {
+        display: none;
+    }
+    .mwb_contact_section.clearfix.mwb_contact_btm_section_wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .mwb-contact-banner-content p {
+        padding: 0 20px;
+    }
+    .mwb-contact-address-wrapper {
+        padding: 50px 20px 50px 20px;
+        float:none;
+    }
+    .mwb-contact-address-social-icon-wrapper {
+        margin-top: 20px;
+    }
+    .mwb-contact-tech-support-wrapper {
+        margin-top: 40px;
+    }
+    .mwb_contact_section.mwb_contact_section_form {
+        padding: 50px 20px 50px 20px;
+    }
+    .mwb_contact_section_form .nf-checked-label {
+        font-size: 13px;
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+    .mwb-contact-address-section {
+        padding: 50px 5px;
+    }
+    .mwb-gmap-map-wrapper {
+        width: 100%;
+    }
+    .mwb-gmap-content-wrapper {
+        width: 100%;
+        padding: 40px 20px 20px 0px;
+    }
+    .mwb_contact_wrapper {
+        margin-top: 0;
+    }
+    /*=====  End of Contact-Us-Page  ======*/
+}
+
+@media only screen and (max-width: 460px) {
+
+    .mwb-contact-phone-img, .mwb-contact-ask-community-img, .mwb-contact-sales-chat-img, .mwb-contact-ticket-img
+    {
+        padding-left: 0; 
+        width: 100%; 
+    }
+    .mwb_contact_section_form ul li {
+        width: 100%;
+        display: inline-block;
+    }
+}

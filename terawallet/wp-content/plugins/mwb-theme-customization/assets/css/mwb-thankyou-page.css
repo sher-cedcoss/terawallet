@@ -1,0 +1,763 @@
+/*==========================================
+=               Thank you-Page            =
+==========================================*/
+.mwb-thankyou-discount__form .mauticform-errormsg {
+    font-size: 12px;
+    padding-left: 20px;
+    color: #db0606;
+}
+.mwb-thankyou-discount__form .mauticform-row button:disabled {
+    background: #2196F3;
+    color: #fff;
+    font-size: 13px;
+}
+.mwb-thankyou-discount__form .mauticform_wrapper form .mauticform-page-wrapper {
+    display: flex !important;
+}
+.mwb-thankyou-discount__form .hs-input {
+    width: 300px !important;
+}
+.mwb-thankyou-discount__form .mauticform-message {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2eae2e;
+    font-family: 'Nunito Sans-Bold';
+}
+.mwb-thankyou-discount__form .hs-button {
+    background-color: #2196F3;
+    margin-left: -40px;
+}
+.mwb-thankyou-discount__form label span{
+    display: none;
+}
+.mwb_thankyou__services.mwb-thankyou-offer {
+    padding-top: 40px;
+    padding-right: 40px;
+}
+.mwb-thankyou-discount__form .hs-error-msg {
+    font-size: 12px;
+    color: #f20707;
+}
+.mwb-thankyou-discount__form .no-list.hs-error-msgs.inputs-list li {
+    list-style: none;
+    padding-left: 0 !important;
+}
+.mwb-thankyou-discount__form .hs_error_rollup {
+    display: none;
+}
+.mwb-thankyou-discount__form p {
+    margin-bottom: 0;
+    color: #047704;
+}
+.mwb-thankyou-discount__form .no-list.hs-error-msgs.inputs-list {
+    margin-bottom: 0px;
+    list-style: none;
+    padding-left: 12px;
+}
+.mwb-thankyou-additional__services-box {
+    padding: 50px 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.woocommerce-order-received .mwb-testimonials {
+    float: none;
+    width: 100%;
+    margin-top: 30px;
+    background: transparent;
+}
+.mwb_testimonial-wrap__content p {
+    padding-left: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.mwb-thankyou-content {
+    padding-bottom: 40px;
+}
+.mwb-testimonial-author span:nth-of-type(1) {
+    display: block;
+    font-family: 'Nunito Sans-Black';
+    padding-left: 46px;
+    padding-right: 20px;
+    border-right: 1px solid #4ec0f8;
+}
+.mwb-testimonial-author span:nth-of-type(2) {
+    padding-left: 20px;
+}
+.mwb-testimonial-author span {
+    font-size: 14px;
+    line-height: normal;
+}
+
+.mwb_testimonial-wrap__content {
+    display: flex;
+}
+.mwb_testimonial-wrap__content span img {
+    max-width: 30px;
+}
+.mwb_testimonial-wrap {
+    max-width: 767px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+    /*text-align: center;*/
+}
+.mwb_testimonial-wrap p img {
+    max-width: 20px;
+}
+.woocommerce-order-received .mwb-testimonials p:nth-of-type(2) {
+    border-left: 0;
+}
+.mwb_thankyou__services-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mwb_thankyou__services .text-center.mwb_content_width {
+    font-size: 20px;
+    font-family: 'Nunito Sans-Black';
+    margin-bottom: 24px;
+}
+/*.mwb-thankyou-discount__full-width {
+width: 50%;
+margin-right: 30px;
+}*/
+.mwb-thankyou-content-wrap {
+    display: flex;
+    padding-top: 20px;
+}
+.mwb-testimonial-author {
+    display: flex;
+}
+.mwb-additional-service-left {
+    margin-right: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.mwb-additional-service-right{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.mwb-thankyou-service-one {
+    background-image: linear-gradient(50deg,#5e2ced,#9749f8);
+}
+.mwb-thankyou-service-two {
+    background-image: linear-gradient(50deg,#70bfec,#2784fc);
+}
+.mwb-thankyou-service-three {
+    background-image: linear-gradient(50deg,#e877cb,#a197fa);
+}
+.mwb-thankyou-additional__services-single h3
+{
+    font-size: 26px;
+    font-family: 'Nunito Sans-Bold';
+    margin-bottom:0;
+}
+.mwb-thankyou-additional__services-single h3 a
+{
+    color:#fff;
+}
+.mwb_services-page__services-link {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.mwb-thankyou-offer__services-box {
+    position: relative;
+}
+.mwb-thankyou-service-img {
+    width: 100%;
+    max-width: 70px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.mwb_hub_temp_additional__cta-wrap .mwb_btn_fill
+{
+    font-size:18px;
+    padding:10px 40px;
+}
+.mwb-price-btn-upsell-wrapper .price del {
+    display: none !important;
+}
+.mwb_hub_temp_additional__intro h2 {
+    font-size: 48px;
+}
+/*.mwb_services-page__services-box.mwb-thankyou-offer__services-box:nth-of-type(3),
+.mwb_services-page__services-box.mwb-thankyou-offer__services-box:nth-of-type(4) {
+padding-top: 26px;
+}*/
+.mwb-thankyou-offer__services-box {
+    width: 23.33%;
+    display: block;
+    border: 0;
+    text-align: center;
+    background: #fff;
+    padding: 0;
+    -moz-transition: .4s;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-right: 1px solid #ededed;
+}
+.mwb-thankyou-offer__services-box:nth-of-type(4) {
+    border-right: 0;
+}
+.mwb-thankyou-page-cross-sells {
+    width: 50%;
+}
+.mwb-thankyou-discount__form input {
+    padding: 0px 20px;
+    height: 40px;
+    width: 300px;
+}
+.mwb-thankyou-offer__content h3 {
+    font-family: "Nunito Sans-Light", sans-serif;
+    margin-bottom: 0;
+    font-size: 14px;
+    margin-top: 0px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.mwb-thankyou-offer__content h3 a{
+    color:#000;
+}
+.mwb-thankyou-offer-icon {
+    font-size: 20px;
+    color: #4ec0f8;
+    font-family: "Nunito Sans-Black", sans-serif;
+}
+.mwb_hub_temp__better-temp {
+    position: relative;
+}
+/* cross sell */
+.mwb-price-btn-upsell-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mwb-thankyou-page-cross-sells .cross-sells .product.type-product a img {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.mwb-thankyou-page-cross-sells .cross-sells {
+    margin: 0 auto;
+    padding: 0px 45px 0 45px;
+}
+.mwb-thankyou-page-cross-sells .cross-sells > h2 {
+    text-align: center;
+    font-family: 'Nunito Sans-Black';
+    color: #000000;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.mwb-thankyou-page-cross-sells .cross-sells .woocommerce-loop-product__title {
+    padding: 0 20px !important;
+    color: #000000;
+    font-family: 'Nunito Sans-Light';
+    font-size: 14px !important;
+    font-weight: normal;
+    min-height: auto;
+}
+.mwb-thankyou-page-cross-sells .cross-sells .price {
+    text-align: center;
+    padding: 0 20px;
+}
+.woocommerce .mwb-thankyou-page-cross-sells .cross-sells ul.products li.product .button {
+    margin: 0px 20px 0px auto !important;
+    width: auto !important;
+    border: none !important;
+    padding: 0 !important;
+    line-height: normal !important;
+    text-transform: capitalize;
+}
+.woocommerce .mwb-thankyou-page-cross-sells .cross-sells .button:hover {
+    background-color: transparent;
+    color: #2196F3;
+    box-shadow: none;
+}
+.woocommerce .mwb-thankyou-page-cross-sells .cross-sells .star-rating {
+    text-align: center;
+    width: 100% !important;
+    margin-top: 12px;
+}
+.woocommerce .mwb-thankyou-page-cross-sells .cross-sells .star-rating span::before, .woocommerce .cross-sells .star-rating::before {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.mwb-thankyou-page-cross-sells .cross-sells .product.type-product {
+    border-radius: 4px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+    border: 1px solid #ebebeb;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+}
+/*.mwb-thankyou-discount__full-width {
+max-width: 767px;
+margin: 0 auto;
+width: 100%;
+}*/
+/*.mwb-thankyou-2col-container {
+display: flex;
+}*/
+.mwb-thankyou-discount__form {
+    display: flex;
+    max-width: 400px;
+    margin: 0 auto;
+    justify-content: center;
+}
+.mwb-thankyou-discount {
+    width: 50%;
+}
+.woocommerce-order-received .site-inner {
+    padding-top: 30px !important;
+}
+.mwb-order-confirmed img {
+    max-width: 20px !important;
+}
+.mwb-thankyou-discount__form {
+    display: flex;
+}
+.mwb-thankyou-discount__offers h2 {
+    font-family: 'Nunito Sans-Black';
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 20px;
+}
+/* cross sell css end */
+.mwb-thankyou-discount__form button {
+    border-radius: 100px;
+    background: #2196F3;
+    font-family: 'Nunito Sans-Light';
+    font-weight: normal;
+    margin-left: -40px;
+    height: 40px;
+    line-height: 12px;
+    font-size: 14px;
+}
+.mwb-thankyou-discount__form input {
+    border-radius: 100px;
+}
+.mwb-ty-takeaways{
+    margin-bottom: 60px;
+    margin-top: 30px;
+    background-color: rgba(239, 241, 243, 0.5);
+    padding: 70px 0;
+}
+.mwb_ty_msg a{
+    color:#2196F3 !important;
+}
+.mwb-ty-congo{
+    text-align: center;
+    max-width: 626px;
+    margin: 0 auto;
+}
+.mwb-ty-congo h2{
+    font-family: 'Nunito sans-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.mwb-ty-congo p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+}
+.mwb-ty-takeaways__coupon {
+    background-color: #e99909;
+    padding: 30px;
+    color: #ffffff;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 28px;
+    max-width: 750px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.mwb-ty-takeaways__coupon::after {
+    content: "";
+    border: 3px dashed #ffffff;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    border-radius: 6px;
+    z-index: -1;
+}
+.mwb-ty-takeaways__coupon i.fas.fa-cut {
+    position: absolute;
+    content: '';
+    top: 1px;
+    left: 33px;
+    font-size: 22px;
+    background: #e99909;
+}
+.mwb-ty-claim-services {
+    margin-top: 36px;
+    text-align: center;
+}
+.mwb-ty-claim-services p {
+    margin-bottom: 0;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+}
+.mwb-ty-claim-services p:before {
+    font-size: 20px;
+    vertical-align: top;
+    content: "\f0a4";
+    font-family: "Font Awesome 5 Free";
+    color: #E99909;
+    margin-right: 7px;
+}
+.mwb-ty-claim-services i.fas.fa-arrow-right {
+    margin-left: 7px;
+    font-size: 12px;
+}
+.woocommerce-order-received .mwb_btn_fill{
+    /*margin-top: 22px;*/
+    background: #2196F3;
+    border-radius: 46px;
+    font-size: 14px;
+    padding: 10px 20px;
+    color: #ffffff;
+    border: none;
+    font-family: 'Nunito Sans';
+    font-weight: normal;
+    margin-right: 10px;
+    display: inline-block;
+    line-height: normal;
+}
+.woocommerce-order-received .mwb-order-confirmed{
+    text-align: center;
+    width: 100%;
+    max-width: 770px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.woocommerce-order-received .mwb-order-confirmed .woocommerce-notice{
+    font-family: 'Nunito Sans-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #A0BF36;
+    margin-bottom: 4px;
+    padding-left: 5px;
+}
+.mwb-order-confirmed .flex-box {
+    display: flex;
+    align-items: center;
+}
+
+.woocommerce-order-received .mwb_ty_msg{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+    max-width: 576px;
+    margin: 0 auto;
+}
+.woocommerce-order-received .site-inner{
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 30px !important;
+}
+.woocommerce-order-received .mwb-top-rated-plugin, .mwb-order-recieved{
+    max-width: 1270px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0 auto;
+}
+.mwb-top-rated-plugin h2{
+    font-family: 'Nunito Sans-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.mwb-top-rated-plugin {
+    padding-top: 60px;
+}
+.mwb-top-rated-plugin .mwb-col-4{
+    padding:0;
+    background-color: #ffffff;
+    border-radius: 0;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.15);
+}
+.mwb-top-rated-plugin h3:first-child {
+    min-height: 85px;
+    margin-bottom: 0;
+}
+.mwb-top-rated-plugin .mwb-product-wrap__featured-wrap.section-pd-100{
+    padding: 10px 0 90px !important;
+}
+/*
+.mwb-top-rated-plugin p{
+display: none;
+}*/
+.mwb-ty-head_sec {
+    margin-bottom: 30px;
+}
+.mwb-ty-head_sec.mwb_blog_cat_list_head {
+    margin-bottom: 0;
+}
+.mwb-ty-head_sec p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+    max-width: 550px;
+    margin: 0 auto;
+}
+.mwb_blog__wrap.mwb_container{
+    padding: 0;
+    padding-left: 15px;
+}
+.mwb_blog__cat-box.mwb-col-3 {
+    box-shadow: 0px 4px 34px rgba(0, 0, 0, 0.15);
+    padding: 0;
+    border-radius: 8px;
+    min-height: 480px;
+}
+.mwb_blog__cat-img img {
+    max-width: 100%;
+    width: 100%;
+}
+h3.mwb_blog__cat-title a {
+    font-family: 'Nunito Sans-Black';
+    color: #000000;
+}
+.mwb_blog__cat-content {
+    padding: 20px 20px 30px 20px;
+}
+.mwb_blog__cat-title-wrap.flex-box{
+    justify-content: left;
+    margin-bottom: 15px;
+}
+.mwb_blog__cat-title {
+    font-family: 'Nunito Sans-Black';
+    color: #000000;
+    font-size: 22px;
+    margin-left:0 !important;
+    margin-bottom: 0;
+}
+.mwb_blog__tag-list ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.mwb_blog__tag-list ul li a{
+    color: #2196F3;
+    font-size: 16px;
+} 
+.mwb-order-recieved .mwb_blog__tag-list ul{
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.woocommerce-order-received .content{
+    padding-right: 0 !important;
+    max-width: 100% !important;
+    padding-left: 0 !important;
+}  
+.mwb_blog.mwb_blog_cat.mwb-order-recieved {
+    margin-bottom: 80px;
+}
+.mwb_blog_cat_list_head.mwb-ty-head_sec h1{
+    font-family: 'Nunito Sans-Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.mwb-top-rated-plugin .mwb_container{
+    padding: 0 20px 0;
+}
+.mwb-top-rated-plugin h3 a{
+    font-family: 'Nunito Sans-Black';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    color: #000000;
+}
+.mwb-top-rated-plugin h3 {
+    padding: 10px 12px 0;
+    font-family: 'Nunito Sans-Black';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 1;
+    text-align: center;
+    color: #738098;
+}
+.mwb-top-rated-plugin .mwb-product-wrap__featured-img {
+    text-align: center;
+}
+.woocommerce-order-received .entry-header{
+    display: none;
+}
+.woocommerce-order-received .content-sidebar-wrap{
+    padding-top: 0 !important;
+}
+@media only screen and (max-width: 992px) {
+    .mwb-thankyou-content-wrap {
+        flex-direction: column;
+    }
+    .mwb-thankyou-page-cross-sells,.mwb-thankyou-discount {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 950px) {
+    .mwb-top-rated-plugin h3:first-child {
+        min-height: 120px;
+    }
+    .mwb-thankyou-discount {
+        flex-direction: column;
+    }
+    .mwb-thankyou-discount__left {
+        display: none;
+    }
+    .mwb-thankyou-discount__right {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 810px)
+{
+    .mwb-order-confirmed .flex-box{
+        display:block !important;
+    } 
+}
+@media only screen and (max-width: 767px)
+{
+    .mwb-thankyou-offer__services-box {
+        width: 49.33%;
+    }
+    .mwb_thankyou__services.mwb-thankyou-offer {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .woocommerce-order-received .mwb-testimonials  {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .mwb_services-page__services-box.mwb-thankyou-offer__services-box:nth-of-type(1),
+    .mwb_services-page__services-box.mwb-thankyou-offer__services-box:nth-of-type(2) {
+        padding-bottom: 20px;
+    }
+    .mwb_blog__wrap.mwb_container{
+        padding-left: 0 !important;
+    } 
+    .mwb-top-rated-plugin .mwb_container {
+        padding: 0;
+    }
+    .mwb-top-rated-plugin h3:first-child {
+        min-height: 100px;
+    }
+    .mwb-top-rated-plugin .mwb-col-4{
+        width: 49% !important;
+        margin-right: 2% !important;
+    }
+    .mwb-order-recieved .mwb-col-3{
+        width: 49% !important;
+        margin-right: 2% !important;
+    }
+    .mwb-order-recieved .mwb-col-3:nth-child(3n+1) {
+        clear: none;
+    }
+    .mwb-top-rated-plugin .mwb-col-4:nth-child(even){
+        margin-right: 0 !important;
+    }
+    .mwb-order-recieved .mwb-col-3:nth-child(even){
+        margin-right: 0 !important;
+    }
+    .woocommerce-order-received .mwb-top-rated-plugin, .mwb-order-recieved, .mwb-order-confirmed{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mwb-thankyou-offer__services-box {
+        border-right: 0;
+    }
+}
+@media only screen and (max-width: 500px)
+{
+    .mwb-thankyou-page-cross-sells .cross-sells .product.type-product {
+        width: 100% !important;
+        flex-direction: column;
+    }
+    .mwb-thankyou-page-cross-sells .cross-sells {
+        padding: 0px 15px 0 15px;
+    }
+    .woocommerce .mwb-thankyou-page-cross-sells .cross-sells .button {
+        margin: 20px !important;
+    }
+    .mwb-thankyou-discount {
+        padding: 20px 0;
+    }
+    .mwb-thankyou-discount__offers {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .mwb-thankyou-discount__form input {
+        width: 250px;
+    }
+}
+@media only screen and (max-width: 454px){
+    .mwb-order-recieved .mwb-col-3{
+        width: 100% !important;
+        margin-right: 0% !important;
+    }
+    .mwb-top-rated-plugin .mwb-col-4 {
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+    .mwb-ty-congo h2{
+        font-size: 27px !important;
+    }
+    .mwb-ty-takeaways__coupon{
+        font-size: 18px !important;
+    }
+}
+@media only screen and (max-width: 350px) {
+    .mwb-thankyou-discount__form input {
+        width: 210px;
+    }
+}
+
+/*=====  End of Thank you-Page  ======*/

@@ -1,0 +1,683 @@
+.mwb_container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (min-width: 768px) {
+	.mwb_container {
+		width: 750px;
+	}
+	.site-inner {
+		padding-top: 0;
+	}
+}
+@media (min-width: 992px) {
+	.mwb_container {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.mwb_container {
+		width: 1170px;
+	}
+}
+.clearfix{
+	display: block;
+	clear: both;
+	content: '';
+}
+.mwb-section{
+	padding: 80px 0px;
+}
+.mwb-wrapper-row {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.mwb_service_content:nth-child(2n+1) {
+	clear: both;
+}  
+/*====================================
+=            hero-section            =
+====================================*/
+.mwb_banner {
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	z-index: 9;
+}
+.mwb_banner:before {
+  /*position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.44);*/
+}
+.mwb_banner .mwb_banner-title {
+	position: absolute;
+	z-index: 9;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 60%;
+	transform: translateY(-50%);
+}
+.mwb_banner .mwb_banner-title h3 {
+
+	font-size: 40px;
+	color: #fff;
+	font-weight: 800;
+}
+/*=====  End of hero-section  ======*/
+
+/*=======================================
+=            content-section            =
+=======================================*/
+.mwb_content_wrap {
+	background: #ffffff;
+	text-align: center;
+}
+.mwb_content_wrap p {
+	margin-bottom: 30px !important;
+	line-height: 30px;
+	color: #000000;
+}
+/*=====  End of content-section  ======*/
+/*=============================================
+=            Section-heading comment block            =
+=============================================*/
+.mwb_section_heading h3 {
+	font-size: 30px;
+	/*font-weight: 600;*/
+	text-transform: capitalize;
+	color: #000;
+}
+.mwb_heading_line {
+	border-bottom: solid 1px #b5b5b5;
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	position: relative;
+}
+.mwb_heading_line:before {
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	background-color: #bdbdbd;
+	content: '';
+	left: 0;
+	top: -9px;
+	border-radius: 50%;
+}
+.mwb_ram_detail_widget {
+	margin-left: 20px;
+}
+.mwb_ram_detail_widget_btn .mwb_view_btn {
+	margin-left: 0px;
+	margin-top: 20px;
+}
+a.mwb_view_btn {
+	border: solid 2px;
+	padding: 6px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #168bff;
+	background-color: transparent;
+	display: inline-block;
+	margin: 0px 10px;
+}
+/*=====  End of Section-heading comment block  ======*/
+
+/*=============================================
+=            provide section start            =
+=============================================*/
+.mwb_rma_provide .mwb_rma_provide_wrap {
+	width: 100%;
+	max-width: 970px;
+	margin: 0 auto;
+	box-shadow: 0px 0px 10px 2px #bdbdbd;
+	padding: 20px 30px;
+	background-color: #fff;
+}
+.mwb_rma_provide .mwb_rma_provide_wrap .mwb_rma_list li {
+	list-style-type: none;
+	position: relative;
+	padding-left: 22px;
+	vertical-align: middle;
+	margin-bottom: 15px;
+	font-size: 17px;
+	/*font-weight: 600;*/
+}
+.mwb_rma_provide .mwb_rma_provide_wrap .mwb_rma_list li::before, .mwb_rma_points li::before {
+	position: absolute;
+	content: "\f00c";
+	width: 10px;
+	height: 10px;
+	left: 0;
+	top: 4px;
+	font-family: 'Font Awesome\ 5 Free';
+	color: #0898ff;
+	font-weight: 900;
+	font-size: 14px;
+}
+.mwb_rma_points li {
+	position: relative;
+	padding-left: 30px;
+	padding-bottom: 13px;
+}
+.mwb_rma_list_product-btn {
+	padding: 30px 0;
+}
+.mwb_rma_woocommerce_details .mwb_sub_heading h2 {
+	color: #0898ff;
+	font-size: 24px;
+	margin-bottom: 20px;
+	/*font-weight: 600;*/
+	text-transform: capitalize;
+}
+.mwb_rma_woocommerce_details p {
+	margin-bottom: 30px;
+	font-size: 17px;
+	/*font-weight: 600;*/
+	/*color: #2b2b2b;*/
+}
+.mwb_rma_provid.mwb_rma_woocommerce_details {
+	margin-top: 60px;
+}
+.mwb_rma_provide {
+	padding: 80px 0px;
+	background-color: #ececec;
+}
+/*=====  End of provide section start  ======*/
+
+/*==================================================
+=            rma features section start            =
+==================================================*/
+.mwb-wrapper-row:last-child {
+	margin: 0;
+}
+.mwb_rma_list_product_circle {
+	background-color: #ffffff;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	float: left;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	border-radius: 50%;
+	position: absolute;
+	box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.28);
+	overflow: hidden;
+}
+.mwb_rma_list_product_circle i {
+	font-size: 70px;
+	color: #168bff;
+}
+.mwb_rma_list_product_content .mwb_top_heading {
+	background-color: #168bff;
+	width: 100%;
+	display: block;
+	padding: 12px 0px;
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+}
+.mwb_rma_list_product_content {
+	min-height: 170px;
+	width: calc(100% - 80px);
+	float: right;
+	box-shadow: 0px 0px 19px 1px rgba(0, 0, 0, 0.28);
+}
+.mwb_rma_list_product_widget {
+	position: relative;
+}
+.mwb_rma_list_product_content .mwb_top_heading {
+	padding-left: 80px;
+}
+.mwb_rma_list_product_widget:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.mwb_rma_list_product_widget {
+	position: relative;
+	margin: 40px 0px;
+}
+.mwb_rma_list_product_content p {
+	padding: 15px 25px 0px 83px;
+	height: 100%;
+	/*font-weight: 600;*/
+	/*color: #424242;*/
+}
+.mwb_image_icon {
+	max-width: 85px;
+	width: 50%;
+}
+/*=====  End of rma features section start  ======*/
+
+/*===============================================
+=            product for rma section            =
+===============================================*/
+
+.mwb_rma_product_widget .mwb-rma-sub-heading {
+	margin-bottom: 30px;
+}
+.mwb_rma_product_widget .mwb-rma-sub-heading a {
+	font-size: 25px;
+	text-decoration: none;
+	color: #168bff;
+	font-weight: bold;
+}
+.mwb_ram_button_wrapper .mwb_view_demo_btn {
+	border: solid 2px;
+	padding: 6px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #168bff;
+	display: inline-block;
+}
+.mwb_ram_button_wrapper {
+	margin-top: 0px;
+}
+.mwb_ram_button_wrapper .mwb-rma-button {
+	border: solid 2px #168bff;
+	padding: 9px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #168bff;
+	display: inline-block;
+	margin-left: 15px;
+}
+.mwb_rma_product_widget .mwb-ram-services-list li {
+	list-style: none;
+	margin-bottom: 10px;
+	color: #797979;
+	font-size: 15px;
+}
+.mwb_rma_product_sec_wrap:nth-child(odd) .mwb_rma_product_widget {
+	padding-left: 30px;
+	padding-right: 0;
+}
+.mwb_product_section_left {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	padding: 0px 15px;
+}
+.mwb_product_section_right {
+	width: 50%;
+	float: right;
+	box-sizing: border-box;
+	padding: 0px 15px;
+}
+.mwb_img-responsive{
+	max-width: 100%;
+	height: auto;
+}
+.mwb_product_section{
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 50px;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0px 0px 13px 1px rgba(0,0,0,.15);
+	padding: 15px;
+}
+.mwb-wrapper-row:nth-child(odd) .mwb_product_section {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+}
+/*=====  End of product for rma section  ======*/
+
+/*=======================================
+=            provide section            =
+=======================================*/
+.mwb_what_else.text-center {
+	padding: 80px 0px;
+}
+.mwb_dokan_meeting_section .template-col {
+	text-align: center;
+}
+.mwb_what_else.text-center .mwb_what_else_widget h3 {
+	font-size: 16px;
+	margin-bottom: 15px;
+	font-weight: 700;
+}
+.mwb_what_else_widget ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+.mwb_what_else_widget ul li {
+	width: 33.333%;
+	float: left;
+	list-style: none;
+	box-sizing: border-box;
+	position: relative;
+	text-align: left;
+	padding: 5px 10px 5px 25px;
+}
+.mwb_what_else_widget ul li:before {
+	position: absolute;
+	content: "\f00c";
+	width: 10px;
+	height: 10px;
+	left: 0;
+	top: 9px;
+	font-family: "Font Awesome 5 Free";
+	color: #0898ff;
+	font-weight: 900;
+}
+.mwb_what_else_widget ul:after {
+	clear: both;
+	display: block;
+	content: '';
+}
+/*=====  End of provide section  ======*/
+
+/*============================================
+=            request-demo-section            =
+============================================*/
+.mwb-rma-section.mwb-rma-request-demo-section {
+	padding: 80px 0px;
+	text-align: center;
+	border-top: solid 1px #ccc;
+}
+.mwb-rma-section.mwb-rma-request-demo-section h2 {
+	font-size: 30px;
+	color: #000;
+	margin-bottom: 30px;
+}
+.mwb-rma-section.mwb-rma-request-demo-section p {
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+a.mwb_view_btn {
+	border: solid 2px;
+	padding: 6px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #168bff;
+	background-color: transparent;
+	display: inline-block;
+	margin: 0px 10px;
+}
+.mwb-rma-section.mwb-rma-request-demo-section .mwb-rma-button {
+	border: solid 2px;
+	padding: 6px 20px;
+	font-size: 16px;
+	border-radius: 5px;
+	text-decoration: none;
+	color: #168bff;
+	background-color: transparent;
+	display: inline-block;
+}
+/*=====  End of request-demo-section  ======*/
+
+/*==========================================
+=            affordable-content            =
+==========================================*/
+.mwb-afford-wrapper .mwb_afford {
+	width: 60%;
+	float: left;
+	box-sizing: border-box;
+	vertical-align: top;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.mwb_afford_img{
+	width: 40% !important;
+}
+.mwb-afford-wrapper .mwb_img img{
+	width: 100%;
+	margin-top: -10px;
+}
+.mwb-afford-wrapper .mwb_seo_list-wrap li {
+	margin-bottom: 30px;
+	color: #000000;
+	list-style: disc !important;
+}
+.mwb_seo_list-wrap {
+	padding-left: 15px;
+}
+/*=====  End of affordable-content  ======*/
+
+/*====================================
+=            -services            =
+====================================*/
+.mwb_service-section{
+	text-align: center;
+}
+.mwb_service_content {
+	width: 50%;
+	float: left;
+	/*color: #181818;*/
+	box-sizing: border-box;
+	padding: 0px 15px;
+}
+.mwb_service_content  h3 {
+	color: #2A84B1;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+.mwb_rma_pricing
+{
+	background: linear-gradient(to right, #3575ad, #7fafcc)!important;
+}
+.check-list .mwb_pricing:after {
+	background-color: #3575ad!important;  
+}
+/*=====  End of -services  ======*/
+
+/*=======================================
+=            meeting-section            =
+=======================================*/
+section.section.section-pd-80.meeting-section.mwb_dokan_meeting_section.mwb_dokan_common {
+	background-color: #ECECEC;
+}
+.alignnone.wp-image-10731.size-full {
+	margin: 0 auto;
+	background: #FFFFFF;
+}
+/*=====  End of meeting-section  ======*/
+
+/*=============================================
+=            MediaQuery Section comment Start          =
+=============================================*/
+@media only screen and (max-width:1216px) {
+	.mwb-afford-wrapper .mwb_afford {
+		margin-right: 0px;
+	}
+}
+@media only screen and (max-width:1200px) {
+	.mwb_what_else_widget ul li {
+		margin: 17px 5px !important;
+	}
+	.mwb-afford-wrapper .mwb_afford {
+		margin-right: 0px;
+	}
+}
+
+@media only screen and (max-width:992px) {
+	.mwb_rma_list_product_content {
+		min-height: 230px;
+		width: calc(100% - 50px);
+	}
+	.mwb_rma_list_product_circle {
+		width: 100px;
+		height: 100px;
+	}
+	.mwb_rma_list_product_content p {
+		padding: 15px 25px 0px 60px;
+	}
+	.mwb_rma_list_product_content .mwb_top_heading {
+		padding-left: 60px;
+	}
+}
+
+@media only screen and (max-width:768px) {
+	.hubspot-pricing__container .hubspot-pricing__wrapper {
+		max-width: 300px;
+		margin: 30px auto;
+		float: none;
+		width: 100%;
+	}
+	.hubspot-pricing__wrapper .price {
+		font-size: 32px;
+	}
+	.hubspot-pricing__container .hubspot-pricing__wrapper:nth-child(3) {
+		margin-right: auto;
+	}
+	.mwb-afford-wrapper .mwb_afford {
+		width: 100%;
+	}
+	body.logged-in .mwb-main-header-wrapper.mwb-top-header-smaller {
+		top: 0;
+	}
+	.mwb-afford-wrapper .mwb_img img {
+		width: 100% !important;
+	}
+	.mwb_afford_img {
+		width: 100% !important;
+	}
+	.mwb_banner-title h3 {
+		font-size: 29px !important;
+		color: #fff;
+		font-weight: 800;
+	}
+	.mwb_banner .mwb_banner-title {
+		top: 60%;
+
+	}
+
+	.mwb_mega_wrapper{
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+
+	.mwb_heading{
+		font-size: 24px !important;
+	}
+	.mwb-afford-wrapper .mwb_img img {
+		width: 100%;
+		margin-top: 20px;
+	}
+	.mwb_heading2{
+		font-size: 27px !important;
+	}
+	.mwb_service_content {
+		width: 100%;
+		margin: 25px 0px;
+		padding: 0px 0px;
+	}
+
+	a.mwb_view_btn {
+		border: solid 3px;
+		padding: 6px 20px;
+		font-size: 16px;
+		display: inline-block;
+		margin: 20px 0px 0px 0px;
+	}
+	.mwb_rma_product_sec {
+		padding:20px;
+	}
+	.mwb_product_section_left {
+		width: 100%;
+	}
+	.mwb_product_section_right {
+		width: 100%;
+		padding-left:0px; 
+	}
+
+	.mwb_rma_product_sec_wrap {
+		width: 100%;
+	}
+	.mwb_ram_button_wrapper .mwb_view_demo_btn {
+		padding: 6px 15px;
+	}
+	.mwb_ram_button_wrapper .mwb-rma-button {
+		padding: 10px 15px;
+		margin-left: 0px;
+	}
+	.mwb_what_else_widget ul li {
+		font-size: 14px;
+		margin: 17px 0px !important;
+		width: 50%;
+		padding-left: 30px;
+	}
+	.mwb_rma_meeting_section .mwb_rma_meeting_details {
+		display: inline-block;
+		float: left;
+		width: 100%;
+		padding-left: 30px;
+		margin-top: 30px;
+	}
+	.mwb_meeting-wrap.clearfix {
+		text-align: -webkit-center;
+		text-align: -moz-center;
+	}
+	.mwb_rma_meeting_section .mwb_rma_meeting_details {
+		padding-left:0px;
+	}
+	.mwb_rma_meeting_section .mwb_rma_meeting_auther_img {
+		width: 100%;
+	}
+	.mwb_ram_detail_widget {
+		margin-left:0px;
+	}
+	.mwb_ram_detail_widget_btn {
+		text-align: center;
+	}
+	.mwb_rma_list_product_circle {
+		position: static;
+		display: flex;
+		float: none;
+		margin: 0 auto 20px;
+	}	
+	.mwb_rma_list_product_content {
+		width: 100%;
+		min-height: auto;
+	}
+	.mwb_rma_list_product {
+		padding: 20px;
+	}
+	.mwb_rma_list_product_circle:before {
+		height: 100%;
+	}
+	.mwb_rma_list_product_content p {
+		padding: 10px;
+	}
+	.mwb_rma_list_product_widget {  
+		margin: 20px 0px;
+	}
+	.mwb_service_content {
+		width: 100%;
+		margin: 0px;
+		text-align: center;
+		padding: 0px;
+		height: 100%;
+	}
+	.mwb_rma_list_product_content .mwb_top_heading {
+		padding-left: 0px;
+	}
+}
+
+
+@media only screen and (max-width:500px) {
+
+	.mwb_what_else_widget ul li {
+		width: 100%;
+	}
+}
+
+/*=====  End of MediaQuery Section comment  ======*/
